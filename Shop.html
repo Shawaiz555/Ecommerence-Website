@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./Shop.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Shop</title>
+  </head>
+  <body>
+    <div id="HeadSection">
+      <div class="container-fluid p-0">
+        <div class="row m-0">
+          <div class="col-lg-12 col-md-12 col-sm-12 p-0">
+              <div class="Navbar">
+                <div class="Logo">
+                  <h4>MS | Store</h4>
+                </div>
+
+                <div class="nav p-0">
+                  <nav class="navbar navbar-expand-xl navbar-light">
+                    <div class="container-fluid p-0">
+                      <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a
+                              class="nav-link"
+                              aria-current="page"
+                              href="./Home.html"
+                              >Home</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="./Shop.html">Shop</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./Blog.html">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Cart.html">Cart</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="Signuplink" href="Signup.html">Signup</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="Loginlink" href="Login.html">Login</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+
+                <div class="Iconlinks">
+                  <div id="LoginedUserName">
+                    <a href="#"
+                    ><img
+                      class="shoppingicon"
+                      src="./shoppingicon.png"
+                      alt="Shopping icon"
+                      width="30"
+                      height="30"
+                  /></a>
+                  </div>
+                  <div>
+                    <p>|</p>
+                  </div>
+                  <div id="LogOutbtn">
+                    <a href="#"
+                    ><img
+                      class="contacticon"
+                      src="./contacticon.png"
+                      alt="Contact icon"
+                      width="30"
+                      height="30"
+                  /></a>
+                    
+                  </div>
+                  
+                </div>
+              </div>
+ 
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+             <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="Headbg">
+                    <img src="./Productbgimg.jpg" alt="">
+                    <div class="Headbgdetail">
+                        <h1>PRODUCTS</h1>
+                        <p>New Arrivals Women Collection 2018</p>
+                    </div>          
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+<div id="AllProductSection">
+     <div class="container">
+          <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="Categoriesdetail">
+                        <div class="Category">
+                            <h5>Categories</h5>
+                            <div class="Categorylinks">
+                             <a href="#">All</a>
+                             <a href="#">Women</a>
+                             <a href="#">Men</a>
+                             <a href="#">Accesories</a>
+                            </div>
+                        </div><br>  
+                        <div class="Filter">
+                            <div class="Filterhead">
+                                <h5>Filter</h5>
+                            </div>
+                            <div class="Pricehead">
+                                <h6>Price</h6>
+                                <div class="slidecontainer">
+                                  <input type="range" min="0" max="1000" value="100" class="slider" id="priceRangeInput">
+                                  </div>
+                            </div>
+                            <div class="Filterdetail">
+                                <div class="Filterbtn">
+                                    <button id="Filterbutton">Filter</button>
+                                </div>
+                                <div class="FilterRange">
+                                    <p>Range: <span id="MinRange">$0</span> - <span id="MaxRange">$1000</span></p>
+                                </div>
+                            </div>
+                        </div><br><br>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-sm-12">
+                    <div class="container mb-5">
+                          <div class="row">
+                               <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="dropdown">
+                                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Sorting
+                                    </a>
+                                  
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                      <li><button class="dropdown-item" id="lowtohighprice">Price: Low To High</button></li>
+                                      <li><button class="dropdown-item" id="hightolowprice">Price: High To Low</button></li>
+                                    </ul>
+                                  </div><br>
+                               </div>
+                               <div class="col-lg-3 col-md-12 col-sm-12">
+                                <div class="dropdown">
+                                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Prices
+                                    </a>
+                                  
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                      <li><button class="priceRange" class="dropdown-item" data-min="0" data-max="50">$0 - $50</button></li>
+                                      <li><button class="priceRange" class="dropdown-item" data-min="50" data-max="100">$50 - $100</button></li>
+                                      <li><button class="priceRange" class="dropdown-item" data-min="100" data-max="150">$100 - $150</button></li>
+                                      <li><button class="priceRange" class="dropdown-item" data-min="150" data-max="200">$150 - $200</button></li>
+                                      <li><button class="priceRange" class="dropdown-item" data-min="200" data-max="Infinity">above $200</button></li>
+                                    </ul>
+                                  </div><br>
+                               </div>
+                               <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="Search position">
+                                    <input type="search" placeholder="Search" id="Searchinput">
+                                </div>
+                               </div>
+                          </div>
+                    </div>
+
+                <div class="container">
+                  <div id="AllProducts">
+                    <!-- <div class="row mb-5">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="ProductCard">
+                              <div class="card" style="width: 100%;">
+                                <img src="./item1.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Herschel supply co 25l</h5>
+                                  <p class="card-text">$75.00</p>
+                                </div>
+                            </div><br>
+                          </div>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item2.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Denim jacket blue</h5>
+                                  <p class="card-text">$92.50</p>
+                                </div>
+                              </div><br>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item3.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Coach slim easton black</h5>
+                                  <p class="card-text">$165.90</p>
+                                </div>
+                            </div><br>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item4.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Herschel supply co 25l</h5>
+                                  <p class="card-text">$75.00</p>
+                                </div>
+                              </div><br>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item5.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Denim jacket blue</h5>
+                                  <p class="card-text">$92.50</p>
+                                </div>
+                              </div><br>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item6.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Coach slim easton black</h5>
+                                  <p class="card-text">$165.90</p>
+                                </div>
+                              </div><br>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item7.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Herschel supply co 25l</h5>
+                                  <p class="card-text">$75.00</p>
+                                </div>
+                              </div><br>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item8.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Denim jacket blue</h5>
+                                  <p class="card-text">$92.50</p>
+                                </div>
+                              </div><br>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item9.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Coach slim easton black</h5>
+                                  <p class="card-text">$165.90</p>
+                                </div>
+                              </div><br>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item10.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Herschel supply co 25l</h5>
+                                  <p class="card-text">$75.00</p>
+                                </div>
+                              </div><br>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item11.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Denim jacket blue</h5>
+                                  <p class="card-text">$92.50</p>
+                                </div>
+                              </div><br>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                                <img src="./item12.png" class="card-img-top" alt="Product image">
+                                <div class="Addtocartbtn transition">
+                                  <button class="btn">Add To Cart</button>
+                                  </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Coach slim easton black</h5>
+                                  <p class="card-text">$165.90</p>
+                                </div>
+                              </div><br>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="ProductCard">
+                            <div class="card" style="width: 100%;">
+                              <img src="./item1.png" class="card-img-top" alt="Product image">
+                              <div class="Addtocartbtn transition">
+                                <button class="btn">Add To Cart</button>
+                                </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Herschel supply co 25l</h5>
+                                <p class="card-text">$75.00</p>
+                              </div>
+                          </div><br>
+                        </div>
+                          
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="ProductCard">
+                          <div class="card" style="width: 100%;">
+                              <img src="./item2.png" class="card-img-top" alt="Product image">
+                              <div class="Addtocartbtn transition">
+                                <button class="btn">Add To Cart</button>
+                                </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Denim jacket blue</h5>
+                                <p class="card-text">$92.50</p>
+                              </div>
+                            </div><br>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="ProductCard">
+                          <div class="card" style="width: 100%;">
+                              <img src="./item3.png" class="card-img-top" alt="Product image">
+                              <div class="Addtocartbtn transition">
+                                <button class="btn">Add To Cart</button>
+                                </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Coach slim easton black</h5>
+                                <p class="card-text">$165.90</p>
+                              </div>
+                          </div><br>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row mb-5">
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="ProductCard">
+                          <div class="card" style="width: 100%;">
+                              <img src="./item4.png" class="card-img-top" alt="Product image">
+                              <div class="Addtocartbtn transition">
+                                <button class="btn">Add To Cart</button>
+                                </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Herschel supply co 25l</h5>
+                                <p class="card-text">$75.00</p>
+                              </div>
+                            </div><br>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="ProductCard">
+                          <div class="card" style="width: 100%;">
+                              <img src="./item5.png" class="card-img-top" alt="Product image">
+                              <div class="Addtocartbtn transition">
+                                <button class="btn">Add To Cart</button>
+                                </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Denim jacket blue</h5>
+                                <p class="card-text">$92.50</p>
+                              </div>
+                            </div><br>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="ProductCard">
+                          <div class="card" style="width: 100%;">
+                              <img src="./item6.png" class="card-img-top" alt="Product image">
+                              <div class="Addtocartbtn transition">
+                                <button class="btn">Add To Cart</button>
+                                </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Coach slim easton black</h5>
+                                <p class="card-text">$165.90</p>
+                              </div>
+                            </div><br>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row mb-5">
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="ProductCard">
+                          <div class="card" style="width: 100%;">
+                              <img src="./item7.png" class="card-img-top" alt="Product image">
+                              <div class="Addtocartbtn transition">
+                                <button class="btn">Add To Cart</button>
+                                </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Herschel supply co 25l</h5>
+                                <p class="card-text">$75.00</p>
+                              </div>
+                            </div><br>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="ProductCard">
+                          <div class="card" style="width: 100%;">
+                              <img src="./item8.png" class="card-img-top" alt="Product image">
+                              <div class="Addtocartbtn transition">
+                                <button class="btn">Add To Cart</button>
+                                </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Denim jacket blue</h5>
+                                <p class="card-text">$92.50</p>
+                              </div>
+                            </div><br>
+                        </div>
+                      </div>
+                     
+                  </div> -->
+                </div>
+                </div>
+
+                <div class="container">
+                     <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                              <p class="productcount"><span id="Currentitems"></span> Out Of <span id="Totalitems"></span> Items</p>
+                        </div>
+                         <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="Loadmorebtn">
+                              <button id="Loadbtn">LOAD MORE</button>
+                            </div>
+                         </div>
+                     </div>
+                </div>
+
+
+            </div>
+        </div>
+     </div>
+</div>
+
+    <div id="FooterSection">
+        <div class="container-fluid">
+            <div class="row">
+                 <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="Getintouchdetail">
+                     <h5>Get In Touch</h5>
+                     <P>Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879</P>
+                    </div>
+                     <div class="SocialLinks">
+                         <a href="#"><img src="./facebook.png" alt="Facebook link" width="18" height="25"></a>
+                         <a href="#"><img src="./email.png" alt="Email link" width="34" height="50"></a>
+                         <a href="#"><img src="./twitter.png" alt="Twitter link" width="24" height="25"></a>
+                         <a href="#"><img src="./insta.png" alt="Facebook link" width="24" height="25"></a>
+                     </div>
+                 </div>
+                 <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="Categories">
+                             <h5>Categories</h5>
+                             <div class="Categorieslinks">
+                                <a href="#">Men</a>
+                                <a href="#">Women</a>
+                                <a href="#">Dresses</a>
+                                <a href="#">Sunglasses</a>
+                             </div>
+                        </div>
+                 </div>
+                 <div class="col-lg-2 col-md-6 col-sm-12">
+                    <div class="Linkspart">
+                        <h5>Links</h5>
+                        <div class="Links">
+                           <a href="#">Search</a>
+                           <a href="#">About Us</a>
+                           <a href="#">Contact us</a>
+                           <a href="#">Returns</a>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="col-lg-2 col-md-6 col-sm-12">
+                    <div class="Help">
+                        <h5>Help</h5>
+                        <div class="Helplinks">
+                           <a href="#">Search</a>
+                           <a href="#">About Us</a>
+                           <a href="#">Contact us</a>
+                           <a href="#">Returns</a>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="Newsletter">
+                        <h5>Newsletter</h5>
+                        <div class="Newsletterdetail">
+                           <input type="email" name="email" id="email" placeholder="Example@gmail.com">
+                           <a href="#">SUBSCRIBE</a>
+                        </div>
+                   </div> 
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./Shop.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>

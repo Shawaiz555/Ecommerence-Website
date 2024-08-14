@@ -1,0 +1,401 @@
+body{
+    background-color: #0f172a;
+    margin: 0;
+    padding: 0;
+}
+.Dashboard{
+    background-color:#1e293b;
+    padding: 10px;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.Dashboard::-webkit-scrollbar {
+  display: none;
+}
+.Logo h1{
+    color: white;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Montserrat-Medium;
+}
+.MainHome p,.AllPage p,.Setting p,.Components p,.Support p,.ConnectUs p{
+    background-color: #0f172a;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    font-family: Mon3serrat-Medium;
+    color: white;
+
+}
+.MainHome a,.AllPage a,.Gallery a,.Report a,.Setting a,.Components a,.Support a{
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+}
+.MainHome a:hover,.AllPage a:hover,.Gallery a:hover,.Report a:hover,.Setting a:hover,.Components a:hover,.Support a:hover{
+    color:aqua;
+    background-color: #1e293b;
+}
+.MainHome span{
+    padding-top: 5px;
+}
+.AllPage .dropdown{
+    width: 80%;
+}
+.AllPage .dropdown-menu,.Setting .dropdown-menu{
+    background-color: #1e293b;
+    border: none;
+    width: 80%;
+    text-align: center;
+}
+.Connectlinks{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.Searchpartbg{
+    background-color: #1e293b;
+    padding: 15px 0px;
+}
+.Searchbtn{
+    padding: 10px 30px;
+    margin-left: 20px;
+    color: white;
+    border-color: #0f172a;
+    font-family: Montserrat-Medium;
+}
+.Searchbtn:hover{
+    color: black;
+    background-color: white;
+}
+.form-control{
+    background-color: #0f172a;
+    font-size: 16px;
+    margin-left: 15px;
+    font-family: Montserrat-Medium;
+}
+.Admindetails{
+    display: grid;
+    grid-template-columns: 60px 160px;
+    justify-content: center;
+}
+.Adminuserdetails h5{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: Montserrat-Medium;
+}
+.Adminuserdetails p{
+    color: white;
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Logoutbtn button{
+    background-color: transparent;
+    border: 1px solid #1e293b;
+    color: white;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+}
+.Logoutbtn button:hover{
+    color: black;
+}
+.MainBody{
+    padding-bottom: 40px;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.MainBody::-webkit-scrollbar{
+    display: none;
+}
+.AddAttributeDetail{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.AddAttributeDetail .AddAttributeHead h3{
+    color: white;
+    font-family: Montserrat-Medium;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.AddAttributeDetail .AddAttributeLinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.AddAttributeDetail .AddAttributeLinks a:hover{
+    color: aqua;
+}
+.ProductSideDetailimg{
+    display: flex;
+    justify-content: center;
+}
+.ProductSideDetailimg img{
+    width: 140px;
+    height: 160px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 15px;
+}
+.ProductSideDetailimg img:hover{
+    cursor: pointer;
+}
+.carousel-item img{
+    width: 100%;
+    height: 125vh;
+    background-color: white;
+    border-radius: 15px;
+    object-fit: contain;
+}
+.carousel-item img:hover{
+    cursor: pointer;
+}
+.ProductDetail .ProductTitle h3{
+    color: darkgray;
+    letter-spacing: 1px;
+    font-family: Montserrat-Medium;
+    padding-left: 15px;
+}
+.ProductDetail .ProductPrice #ItemPrice{
+    color: deepskyblue;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: Montserrat-Medium;
+}
+.ProductDetail .ProductColor{
+    margin-top: 80px;
+}
+.ProductDetail .ProductColor p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: Montserrat-Medium;
+    padding-left: 15px;
+}
+.ProductDetail .ProductColor  p span{
+    color: orange;
+    padding-left: 10px;
+}
+.ProductDetail .ProductColor .Colorpicks{
+    display: flex;
+    gap: 20px;
+    padding-left: 15px;
+}
+.ProductDetail .ProductColor .Colorpicks .OuterDiv{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.ProductDetail .ProductColor .Colorpicks .OuterDiv:nth-child(1){
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
+.ProductDetail .ProductColor .Colorpicks .OuterDiv:nth-child(1):hover{
+    transition: 0.4s;
+    transform: scale(0.9);
+}
+.ProductDetail .ProductColor .Colorpicks #Orange{
+    background-color: orange;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.ProductDetail .ProductColor .Colorpicks #Blue{
+    background-color: blue;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.ProductDetail .ProductColor .Colorpicks #Yellow{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.ProductDetail .ProductColor .Colorpicks #Gray{
+    background-color: gray;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.ProductDetail .ProductColor .Colorpicks #Blue:hover,.ProductDetail .ProductColor .Colorpicks #Yellow:hover,.ProductDetail .ProductColor .Colorpicks #Gray:hover{
+    transition: 0.4s;
+    transform: scale(0.9);
+}
+.ProductDetail .ProductSize{
+    margin-top: 80px;
+}
+.ProductDetail .ProductSize p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: Montserrat-Medium;
+    padding-left: 15px;
+}
+.ProductDetail .ProductSize  p span{
+    color: deepskyblue;
+    padding-left: 10px;
+}
+.ProductDetail .ProductSize .Sizepicks{
+    display: flex;
+    gap: 20px;
+    padding-left: 15px;
+}
+.ProductDetail .ProductSize .Sizepicks #Small{
+    border-radius: 30%;
+    background-color: deepskyblue;
+    font-size: 19px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.ProductDetail .ProductSize .Sizepicks #Medium{
+    border-radius: 30%;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    border: 1px solid gray;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.ProductDetail .ProductSize .Sizepicks #Large{
+    border-radius: 30%;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    border: 1px solid gray;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.ProductDetail .ProductSize .Sizepicks #ExtraLarge{
+    border-radius: 30%;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    border: 1px solid gray;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.ProductDetail .ProductSize .Sizepicks #Small:hover,.ProductDetail .ProductSize .Sizepicks #Medium:hover,.ProductDetail .ProductSize .Sizepicks #Large:hover,.ProductDetail .ProductSize .Sizepicks #ExtraLarge:hover{
+    transition: 0.4s;
+    transform: scale(0.9);
+    border: 1px solid blue;
+}
+.ProductDetail .ProductQuantity{
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.ProductDetail .ProductQuantity p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: Montserrat-Medium;
+    padding-left: 15px;
+}
+.ProductDetail .ProductQuantity #Quantitybtn{
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.ProductDetail .ProductQuantity #Quantitybtn #Minusbtn{
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.ProductDetail .ProductQuantity #Quantitybtn #Plusbtn{
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.ProductDetail .ProductQuantity #Quantitybtn #Quantity{
+    color: deepskyblue;
+}
+.ProductDetail .AddToCartBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.ProductDetail .AddToCartBtn button{
+    background-color:deepskyblue;
+    text-align: center;
+    color: white;
+    font-family: Montserrat-Medium;
+    letter-spacing: 2px;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 20px;
+}
+.ProductDetail .AddToCartBtn button:hover{
+    background-color: black;
+}
+.ProductDetail .AddToCartBtn #TotalPrice{
+    color: white;
+    font-family: Montserrat-Medium;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+.ProductDetail .AddToCartBtn #Price{
+    color: deepskyblue;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.ProductDetail .BuyWithPayPalBtn{
+    display: flex;
+    justify-content: center;
+}
+.ProductDetail .BuyWithPayPalBtn button{
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-family: Montserrat-Medium;
+    letter-spacing: 2px;
+    padding: 15px 80px;
+    border: none;
+    border-radius: 20px;
+}
+.ProductDetail .BuyWithPayPalBtn button:hover{
+    background-color: black;
+    color: white;
+}

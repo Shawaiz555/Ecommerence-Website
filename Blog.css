@@ -1,0 +1,731 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Navbar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.Logo h4{
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 100%;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: end;
+}
+.nav-item{
+    padding: 0px 15px;
+}
+.nav .nav-link{
+    font-size: 16px;
+    font-family: Montserrat-Regular;
+    color: black !important;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.nav .nav-link.active{
+    color: #e65540 !important;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav .nav-link:hover{
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Iconlinks{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    gap: 20px;
+}
+.Headbg img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.Headbg{
+    position: relative;
+}
+.Headbgdetail{
+    position: absolute;
+    content: "";
+    top: 40%;
+    left: 40%;
+}
+.Headbgdetail h1{
+    color: white;
+    font-size: 90px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+}
+#BlogPageDetail{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.Bloghead{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+#BlogPageDetail .blogcard .card{
+    width: 100%;
+    border: none;
+}
+#BlogPageDetail .blogcard .card .cardimg{
+    overflow: hidden;
+}
+#BlogPageDetail .blogcard img:hover{
+    transition-duration: 1s;
+    transform-origin: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#BlogPageDetail .blogcard .card .card-body a{
+    text-decoration: none;
+    color: black;
+}
+#BlogPageDetail .blogcard .card .card-body .Bloglink{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Montserrat-Regular;
+    color: black;
+}
+#BlogPageDetail .blogcard .card .card-body a:hover{
+    color: #e65540;
+}
+#BlogPageDetail .blogcard .card .card-title{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: Montserrat-Regular;
+}
+#BlogPageDetail .blogcard .card .card-text,#BlogPageDetail .blogcard .card .card-text2{
+    font-size: 20px;
+    font-family: Montserrat-Regular;
+}
+.pagination .page-item{
+    margin-left: 20px;
+}
+.page-link{
+    border: none;
+    font-family: Montserrat-Regular;
+    letter-spacing: 2px;
+    border-radius: 20px !important;
+}
+.pagination .page-link:hover{
+    background-color:black;
+    color: white;
+}
+.position{
+    display: flex;
+    justify-content: end;
+}
+.BlogSideDetail .Search{
+    width: 100%;
+}
+.BlogSideDetail .Search input{
+    padding: 6px 40px;
+    border-radius: 20px;
+    border-color:#e6e6e6;
+    font-family: Montserrat-Regular;
+}
+.BlogSideDetail .Category h5{
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+.BlogSideDetail .Category .Categorylinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.BlogSideDetail .Category .Categorylinks a{
+    color: black;
+    font-family: Montserrat-Regular;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.BlogSideDetail .Category .Categorylinks a:hover{
+    color: #e65540;
+}
+.BlogSideDetail .FeaturedProductsdetail{
+    padding-bottom:20px;
+}
+.BlogSideDetail .FeaturedProductsdetail .FeatureHead h4{
+    font-weight: bold;
+    font-family: Montserrat-Regular;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.BlogSideDetail .FeaturedProductsdetail .card{
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+.BlogSideDetail .FeaturedProductsdetail .card a{
+    text-decoration: none;
+    font-family: Montserrat-Regular;
+    color: black;
+}
+.BlogSideDetail .FeaturedProductsdetail .card a:hover{
+    color: #e65540;
+}
+.BlogSideDetail .FeaturedProductsdetail .card .card-title{
+    font-size: 16px;
+}
+.BlogSideDetail .FeaturedProductsdetail .card .card-text{
+    font-size: 12px;
+    font-family: Montserrat-Regular;
+}
+.BlogSideDetail .FeaturedProductsdetail .card .cardimg{
+    overflow: hidden;
+}
+.BlogSideDetail .FeaturedProductsdetail .cardimg img:hover{
+    transition-duration: 1s;
+    transform-origin: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.BlogSideDetail .Archievedetail{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.BlogSideDetail .Archievedetail .Archievehead h4{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Montserrat-Regular;
+    letter-spacing: 2px;
+}
+.BlogSideDetail .Archievedetail .Data{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.BlogSideDetail .Archievedetail .Data a{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat-Regular;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.BlogSideDetail .Archievedetail .Data a:hover{
+    color: #e65540;
+}
+.BlogSideDetail .Taghead h4{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Montserrat-Regular;
+    letter-spacing: 2px;
+}
+.BlogSideDetail .Tagsdetail .Tagsrow1{
+    display: flex;
+    gap: 10px;
+}
+.BlogSideDetail .Tagsdetail .Tagsrow2{
+    display: flex;
+    gap: 20px;
+}
+.BlogSideDetail .Tagsdetail a{
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: Montserrat-Regular;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid #e6e6e6;
+}
+.BlogSideDetail .Tagsdetail a:hover{
+    color: red;
+    border: 1px solid red;
+}
+.LogOutbtn{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+.LogOutbtn:hover{
+    background-color: aqua;
+    color: black;
+    border-color: aqua;
+}
+
+#FooterSection{
+    background-color: #f2f2f2;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#FooterSection .Getintouchdetail,#FooterSection .SocialLinks{
+    padding-left: 50px;
+}
+#FooterSection .SocialLinks a{
+    padding-right: 10px;
+}
+#FooterSection .SocialLinks a img:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+}
+#FooterSection .Getintouchdetail h5{
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+    padding-bottom: 20px;
+}
+#FooterSection .Getintouchdetail p{
+    color: #555555;
+    font-size: 15px;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Categories h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Categorieslinks{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Categorieslinks a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Categorieslinks a:hover{
+    color: #e65540;
+}
+#FooterSection .Linkspart h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Links{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Links a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Links a:hover{
+    color: #e65540;
+}
+#FooterSection .Help h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Helplinks{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Helplinks a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Helplinks a:hover{
+    color: #e65540;
+}
+
+#FooterSection .Newsletter h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Newsletterdetail input{
+    background-color: #f2f2f2;
+    border-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-family: Montserrat-Medium;
+    width: 100%;
+}
+#FooterSection .Newsletterdetail a{
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Montserrat-Medium;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#FooterSection .Newsletterdetail a:hover{
+    background-color: #e65540;
+}
+
+@media screen and (max-width:345px){
+    .Logo h4{
+        font-size: 16px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 28%;
+    }
+    .Headbgdetail h1{
+        font-size: 50px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width:376px){
+    .Logo h4{
+        font-size: 16px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 28%;
+    }
+    .Headbgdetail h1{
+        font-size: 55px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 60px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:390px) and (max-width:431px){
+    .Logo h4{
+        font-size: 20px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 30%;
+    }
+    .Headbgdetail h1{
+        font-size: 50px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:432px) and (max-width:541px){
+    .Logo h4{
+        font-size: 20px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 33%;
+    }
+    .Headbgdetail h1{
+        font-size: 55px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:821px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 36%;
+    }
+    .Headbgdetail h1{
+        font-size: 75px;
+    }
+    .Headbgdetail p{
+        font-size: 20px;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+        font-size: 27px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 270px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:821px) and (max-width:913px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 30%;
+    }
+    .Headbgdetail h1{
+        font-size: 65px;
+    }
+    .Headbgdetail p{
+        font-size: 20px;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+        font-size: 27px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 320px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:914px) and (max-width:1025px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 38%;
+    }
+    .Headbgdetail h1{
+        font-size: 75px;
+    }
+    .Headbgdetail p{
+        font-size: 25px;
+    }
+    .BlogSideDetail .Search{
+        margin-left: 30px;
+    }
+    .BlogSideDetail .FeaturedProductsdetail .FeatureHead h4{
+        font-size: 20px;
+    }
+    .BlogSideDetail .Tagsdetail .Tagsrow1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .BlogSideDetail .Tagsdetail .Tagsrow2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

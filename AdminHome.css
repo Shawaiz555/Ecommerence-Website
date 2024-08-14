@@ -1,0 +1,266 @@
+body{
+    background-color: #0f172a;
+    margin: 0;
+    padding: 0;
+}
+.Dashboard{
+    background-color:#1e293b;
+    padding: 10px;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.Dashboard::-webkit-scrollbar {
+  display: none;
+}
+.Logo h1{
+    color: white;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Montserrat-Medium;
+}
+.MainHome p,.AllPage p,.Setting p,.Components p,.Support p,.ConnectUs p{
+    background-color: #0f172a;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    font-family: Mon3serrat-Medium;
+    color: white;
+
+}
+.MainHome a,.AllPage a,.Gallery a,.Report a,.Setting a,.Components a,.Support a{
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+}
+.MainHome a:hover,.AllPage a:hover,.Gallery a:hover,.Report a:hover,.Setting a:hover,.Components a:hover,.Support a:hover{
+    color:aqua;
+    background-color: #1e293b;
+}
+.MainHome span{
+    padding-top: 5px;
+}
+.AllPage .dropdown{
+    width: 80%;
+}
+.AllPage .dropdown-menu,.Setting .dropdown-menu{
+    background-color: #1e293b;
+    border: none;
+    width: 80%;
+    text-align: center;
+}
+.Connectlinks{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.Searchpartbg{
+    background-color: #1e293b;
+    padding: 15px 0px;
+}
+.Searchbtn{
+    padding: 10px 30px;
+    margin-left: 20px;
+    color: white;
+    border-color: #0f172a;
+    font-family: Montserrat-Medium;
+}
+.Searchbtn:hover{
+    color: black;
+    background-color: white;
+}
+.form-control{
+    background-color: #0f172a;
+    font-size: 16px;
+    margin-left: 15px;
+    font-family: Montserrat-Medium;
+}
+.Admindetails{
+    display: grid;
+    grid-template-columns: 60px 160px;
+    justify-content: center;
+}
+.Adminuserdetails h5{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: Montserrat-Medium;
+}
+.Adminuserdetails p{
+    color: white;
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Logoutbtn button{
+    background-color: transparent;
+    border: 1px solid #1e293b;
+    color: white;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+}
+.Logoutbtn button:hover{
+    color: black;
+}
+.MainBody{
+    padding: 40px 20px;
+    background-color:#0f172a;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.MainBody::-webkit-scrollbar {
+    display: none;
+  }
+.Cards{
+    padding: 40px 15px;
+    border: 1px solid darkgray;
+    background-color: #1e293b;
+    border-radius: 15px;
+}
+.DetailCards{
+    display: grid;
+    grid-template-columns: 60px 80px 40px 50px;
+}
+.DetailCardsDetail h6{
+    font-size: 14px;
+    font-family: Montserrat-Medium;
+    color: white;
+    font-weight: bold;
+}
+.DetailCardsDetail p{
+    color: white;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+}
+.DetailCardsprofitDetail p{
+    color: white;
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+}
+.OrderChart{
+    padding: 40px 15px;
+    border: 1px solid darkgray;
+    background-color: #1e293b;
+    border-radius: 15px;
+}
+.OrderChart h4,.TopProducts h4,.TopCountryHead h4{
+    color: white;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.Products{
+    overflow: scroll;
+}
+.Products::-webkit-scrollbar {
+    display: none;
+}
+.TopCountriesSaleTable{
+    overflow: scroll;
+}
+.TopCountriesSaleTable::-webkit-scrollbar {
+    display: none;
+}
+.TopProductsCard{
+    padding: 25px 15px;
+    border: 1px solid darkgray;
+    background-color: #1e293b;
+    border-radius: 15px;
+}
+.TopProducts,.TopCountryHeadDetail{
+    display: flex;
+    justify-content: space-between;
+}
+.TopProducts a,.TopCountryLink a{
+    color: white;
+    font-size: 14px;
+    padding-top: 4px;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+    letter-spacing: 1px;
+}
+.TopProducts a:hover,.TopCountryLink a:hover{
+    color: aqua;
+}
+.ProductName a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.ProductName a:hover{
+    color: aqua;
+}
+.ProductName p{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.ProductCoupenCode p{
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.ProductCoupenCode h6{
+    margin-top: 12px;
+    color: white;
+    font-size: 14px;
+}
+.ProductSaleprice h6{
+    margin-top: 12px;
+    color: white;
+    font-size: 15px;
+}
+.ProductSaleprice p{
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.ProductCountry{
+    display: flex;
+    justify-content: start;
+}
+.TopCountryCard{
+    padding: 25px 15px;
+    border: 1px solid darkgray;
+    background-color: #1e293b;
+    border-radius: 15px;
+}
+.TotalIncome{
+    display: grid;
+    grid-template-columns: 225px 67px 60px;
+    margin-bottom: 80px;
+}
+.TopCountriesSaleTable .TotalIncome h3{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+}
+.TopCountriesSaleTable .TotalIncome p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.TopCountriesSaleTable .CountryName a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+    letter-spacing: 2px;
+}
+.TopCountriesSaleTable .ProductSale p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Montserrat-Medium;
+}
+

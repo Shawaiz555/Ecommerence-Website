@@ -1,0 +1,1490 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+.sliderimg{
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.Navbar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.Logo h4{
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 100%;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: end;
+}
+.nav-item{
+    padding: 0px 15px;
+}
+.nav .nav-link{
+    font-size: 16px;
+    font-family: Montserrat-Regular;
+    color: black !important;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.nav .nav-link.active{
+    color: #e65540 !important;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav .nav-link:hover{
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Iconlinks{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    gap: 20px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption p{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+.carousel-caption h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.carousel-caption button{
+    background-color:white;
+    border-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    padding: 12px 35px;
+    cursor: pointer;
+}
+.carousel-caption button:hover{
+    background-color: #e65540;
+    border-color: #e65540;
+    color: white;
+}
+#BannerSection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Firstcol{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.Secondcol{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.Thirdcol{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.banner1img{
+    overflow: hidden;
+}
+.banner1img img,.banner5img img{
+    width: 360px;
+    height: 470px;
+}
+.banner2img img{
+    width: 360px;
+    height: 300px;
+}
+.banner3img img{
+    width: 360px;
+    height: 320px;
+}
+.banner4img img{
+    width: 360px;
+    height: 450px;
+}
+.banner1img:hover img{
+    transition-duration: 1s;
+    transform-origin: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Banner1btn{
+    position: absolute;
+    content: "";
+    top: 52%;
+    left: 28%;
+}
+.Banner1btn a{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat-Regular;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+.Banner1btn a:hover{
+    color: white;
+    background-color: #e65540;
+}
+.banner2img{
+    overflow: hidden;
+}
+.banner2img:hover img{
+    transition-duration: 1s;
+    transform-origin: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Banner2btn{
+    position: absolute;
+    content: "";
+    top: 93%;
+    left: 24%;
+}
+.Banner2btn a{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat-Regular;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+.Banner2btn a:hover{
+    color: white;
+    background-color: #e65540;
+}
+.banner3img{
+    overflow: hidden;
+}
+.banner3img:hover img{
+    transition-duration: 1s;
+    transform-origin: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Banner3btn{
+    position: absolute;
+    content: "";
+    top: 33%;
+    left: 28%;
+}
+.Banner3btn a{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat-Regular;
+    background-color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+.Banner3btn a:hover{
+    color: white;
+    background-color: #e65540;
+}
+.banner4img{
+    overflow: hidden;
+}
+.banner4img:hover img{
+    transition-duration: 1s;
+    transform-origin: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Banner4btn{
+    position: absolute;
+    content: "";
+    top: 93%;
+    left: 22%;
+}
+.Banner4btn a{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat-Regular;
+    background-color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+.Banner4btn a:hover{
+    color: white;
+    background-color: #e65540;
+}
+.banner5img{
+    overflow: hidden;
+}
+.banner5img:hover img{
+    transition-duration: 1s;
+    transform-origin: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Banner5btn{
+    position: absolute;
+    content: "";
+    top: 51%;
+    left: 34%;
+}
+.Banner5btn a{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat-Regular;
+    background-color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+.Banner5btn a:hover{
+    color: white;
+    background-color: #e65540;
+}
+.Signupdetail{
+    background-color:whitesmoke;
+    padding: 45px 60px;
+    width: 82%;
+    height: 86%;
+}
+.Signupdetail h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: Montserrat-Medium;
+}
+.Signupdetail p{
+    color: gray;
+    font-size: 15px;
+}
+.Signupbtn{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+.Signupbtn a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px 45px;
+}
+.Signupbtn a:hover{
+    color: white;
+    background-color: #e65540;
+}
+.Featurehead{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat-Medium;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.swiper-slide .card{
+    width: 100%;
+    position: relative;
+    border: none;
+}
+.swiper-slide .card img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.swiper-slide .card .card-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.swiper-slide .card .card-title,.swiper-slide .card .card-text{
+    text-align: center;
+}
+.swiper-slide .card .Addtocartbtn{
+    display: flex;
+    justify-content: center;
+}
+.swiper-slide .card .Addtocartbtn .btn{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    padding: 7px 40px;
+}
+.swiper-slide .card .Addtocartbtn .btn:hover{
+    background-color: tomato;
+    color: white;
+}
+.swiper-slide .card .Addtocartbtn{
+    position: absolute;
+    content: "";
+    left: 20%;
+    bottom: 45px;
+    opacity: 0;
+}
+.transition{
+    transition-duration: 0.5s;
+}
+.swiper-slide .card:hover .Addtocartbtn{
+    opacity: 1;
+    transform: translateY(-70px);
+}
+#BeautyCollectionSection{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f2f2f2;
+}
+#BeautyCollectionSection .row{
+    display: flex;
+    justify-content: center;
+}
+.Beautyimg{
+    display: grid;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.Beautyimg img{
+    width: 100%;
+}
+.Beautyimg:hover img{
+    transition-duration: 1s;
+    transform-origin: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Collectiondetail{
+    position: absolute;
+    content: "";
+    top: 33%;
+    left: 25%;
+}
+.Collectiondetail h2{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.Collectiondetail h1{
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.Collectionlink{
+    display: flex;
+    justify-content: center;
+}
+.Collectiondetail a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.Collectiondetail a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.Productpart img{
+    width: 100%;
+}
+.Productpart{
+    display: grid;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.Productpart:hover img{
+    transition-duration: 1s;
+    transform-origin: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Productdetail{
+    position: absolute;
+    content: "";
+    top: 70%;
+    left: 33%;
+}
+.Productdetail p{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+#BlogSection{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.Bloghead{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+#BlogSection .card{
+    width: 90%;
+    border: none;
+}
+#BlogSection .card .cardimg{
+    overflow: hidden;
+}
+#BlogSection img:hover{
+    transition-duration: 1s;
+    transform-origin: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#BlogSection .card .card-body a{
+    text-decoration: none;
+    color: black;
+}
+#BlogSection .card .card-body a:hover{
+    color: #e65540;
+}
+#BlogSection .card .card-title{
+    font-size: 19px;
+}
+#BlogSection .card .card-text,#BlogSection .card .card-text2{
+    font-size: 14px;
+}
+#FollowSection{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.Followhead{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.Users{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Deliverydetails,.Returndetails,.Storedetails{
+    text-align: center;
+}
+.Returndetails{
+    border-left: 1px solid lightgray;
+}
+.Storedetails{
+    border-left: 1px solid lightgray;
+}
+.Deliverydetails h4,.Returndetails h4,.Storedetails h4{
+    color: #555555;
+    font-size: 20px;
+    font-family: Montserrat-Medium;
+    letter-spacing: 1px;
+}
+.Deliverydetails a{
+    text-decoration: none;
+    color: #555555;
+    font-family: Montserrat-Medium;
+
+}
+.Deliverydetails a:hover{
+    color: #e65540;
+}
+.Returndetails p,.Storedetails p{
+    color: #555555;
+    font-size: 16px;
+    font-family: Montserrat-Medium;
+}
+.User1 img,.User2 img,.User3 img,.User4 img,.User5 img{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.User1,.User2,.User3,.User4,.User5{
+    position: relative;
+}
+.user1detail,.user2detail,.user3detail,.user4detail,.user5detail{
+    background-color:black;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    left: 0%;
+    bottom: -10%;
+    opacity: 0;
+}
+.user1detail p,.user2detail p,.user3detail p,.user4detail p,.user5detail p{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    color:white;
+    padding-left: 10px;
+    font-family: Montserrat-Medium;
+}
+.user1detail h6,.user2detail h6,.user3detail h6,.user4detail h6,.user5detail h6{
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 38px;
+}
+.user1detail h3,.user2detail h3,.user3detail h3,.user4detail h3,.user5detail h3{
+    padding-top: 65px;
+    padding-left: 10px;
+    font-weight: bold;
+    color:white;
+    font-family: Montserrat-Medium;
+}
+.User1:hover .user1detail,.User2:hover .user2detail,.User3:hover .user3detail,.User4:hover .user4detail,.User5:hover .user5detail{
+    opacity: 0.7;
+    cursor: pointer;
+    transition-duration: 1.3s;
+    transform: translateY(-35px);
+}
+.LogOutbtn{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+.LogOutbtn:hover{
+    background-color: aqua;
+    color: black;
+    border-color: aqua;
+}
+#FooterSection{
+    background-color: #f2f2f2;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#FooterSection .Getintouchdetail,#FooterSection .SocialLinks{
+    padding-left: 50px;
+}
+#FooterSection .SocialLinks a{
+    padding-right: 10px;
+}
+#FooterSection .SocialLinks a img:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+}
+#FooterSection .Getintouchdetail h5{
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+    padding-bottom: 20px;
+}
+#FooterSection .Getintouchdetail p{
+    color: #555555;
+    font-size: 15px;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Categories h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Categorieslinks{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Categorieslinks a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Categorieslinks a:hover{
+    color: #e65540;
+}
+#FooterSection .Linkspart h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Links{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Links a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Links a:hover{
+    color: #e65540;
+}
+#FooterSection .Help h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Helplinks{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Helplinks a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Helplinks a:hover{
+    color: #e65540;
+}
+
+#FooterSection .Newsletter h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Newsletterdetail input{
+    background-color: #f2f2f2;
+    border-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-family: Montserrat-Medium;
+    width: 100%;
+}
+#FooterSection .Newsletterdetail a{
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Montserrat-Medium;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#FooterSection .Newsletterdetail a:hover{
+    background-color: #e65540;
+}
+
+
+@media screen and (max-width:1352px){
+    #FollowSection .Users{
+        display: flex;
+        flex-direction: column;
+    }
+    #FollowSection .Users .User1 img,#FollowSection .Users .User2 img,#FollowSection .Users .User3 img,#FollowSection .Users .User4 img,#FollowSection .Users .User5 img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }  
+}
+@media screen and (min-width:914px) and (max-width:1025px){
+    .banner1img img,.banner4img img,.banner5img img{
+        width: 300px;
+        height: 450px;
+    }
+    .banner2img img,.banner3img img{
+        width: 300px;
+        height: 330px;
+    }
+    .Signupdetail{
+        width: 95%;
+        height: 95%;
+    }
+    .Signupdetail h1{
+       font-size: 25px;
+    }
+    .Banner1btn{
+        position: absolute;
+        content: "";
+        top: 48%;
+        left: 24%;
+    }
+    .Banner2btn{
+        position: absolute;
+        content: "";
+        top: 93%;
+        left: 17%;
+    }
+    .Banner3btn{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 22%;
+    }
+    .Banner4btn{
+        position: absolute;
+        content: "";
+        top: 92%;
+        left: 13%;
+    }
+    .Banner5btn{
+        position: absolute;
+        content: "";
+        top: 48%;
+        left: 28%;
+    }
+    #BeautyCollectionSection .row{
+        display: flex;
+        justify-content: start;
+    }
+    .Collectiondetail{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 15%;
+    }
+    .Productdetail{
+        position: absolute;
+        content: "";
+        top: 70%;
+        left: 27%;
+    }
+    #BlogSection .row{
+        margin-left: 30px;
+    }
+    #BlogSection .card{
+        height: 470px;
+    }
+}
+@media screen and (min-width:821px) and (max-width:913px){
+    .carousel-caption p{
+        font-size: 25px;
+    }
+    .carousel-caption h1{
+        font-size: 70px;
+    }
+    .carousel-caption button{
+        padding: 15px 55px;
+    }
+    .banner1img img,.banner4img img,.banner2img img,.banner3img img,.banner5img img{
+        width: 840px;
+        height: 810px;
+    }
+    .Beautyimg img{
+        height: 550px;
+    }
+    .Productpart img{
+        height: 550px;
+    }
+    .Signupdetail{
+        margin-top: 20px;
+        width: 120%;
+    }
+    .Signupdetail h1{
+        font-size: 40px;
+    }
+    .Signupdetail p{
+        font-size: 28px;
+    }
+    .Signupdetail a{
+        font-size: 22px;
+    }
+    
+    .Collectiondetail{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 22%;
+    }
+    .Collectiondetail h2{
+        font-size: 45px;
+    }
+    .Collectiondetail h1{
+        font-size: 75px;
+    }
+    .Collectiondetail a{
+        font-size: 25px;
+    }
+    .Productdetail{
+        position: absolute;
+        content: "";
+        top: 70%;
+        left: 33%;
+    }
+    .Productdetail h5{
+        font-size: 25px;
+    }
+    .Productdetail p{
+        font-size: 22px;
+    }
+    .Banner1btn{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 31%;
+    }
+    .Banner1btn a{
+        font-size: 30px;
+    }
+    .Banner2btn{
+        position: absolute;
+        content: "";
+        top: 93%;
+        left: 30%;
+    }
+    .Banner2btn a{
+        font-size: 30px;
+    }
+    .Banner3btn{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 31%;
+    }
+    .Banner3btn a{
+        font-size: 33px;
+    }
+    .Banner4btn{
+        position: absolute;
+        content: "";
+        top: 93%;
+        left: 26%;
+    }
+    .Banner4btn a{
+        font-size: 33px;
+    }
+    .Banner5btn{
+        position: absolute;
+        content: "";
+        top: 55%;
+        left: 33%;
+    }
+    .Banner5btn a{
+        font-size: 35px;
+        padding: 10px 70px;
+    }
+    #BlogSection .card{
+        width: 100%;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+        font-size: 27px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 320px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:821px){
+    .Logo h4{
+        font-size: 30px;
+    }
+    .banner1img img,.banner4img img,.banner2img img,.banner3img img,.banner5img img{
+        width: 800px;
+        height: 780px;
+    }
+    .Signupdetail{
+        width: 100%;
+    }
+    .Signupdetail h1{
+        font-size: 35px;
+    }
+    .Signupdetail p{
+        font-size: 25px;
+    }
+    .Signupdetail a{
+        font-size: 22px;
+    }
+    .Collectiondetail{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 27%;
+    }
+    .Productdetail{
+        position: absolute;
+        content: "";
+        top: 70%;
+        left: 35%;
+    }
+    .Banner1btn{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 34%;
+    }
+    .Banner1btn a{
+        font-size: 30px;
+    }
+    .Banner2btn{
+        position: absolute;
+        content: "";
+        top: 93%;
+        left: 30%;
+    }
+    .Banner2btn a{
+        font-size: 30px;
+    }
+    .Banner3btn{
+        position: absolute;
+        content: "";
+        top: 44%;
+        left: 31%;
+    }
+    .Banner3btn a{
+        font-size: 33px;
+    }
+    .Banner4btn{
+        position: absolute;
+        content: "";
+        top: 94%;
+        left: 26%;
+    }
+    .Banner4btn a{
+        font-size: 33px;
+    }
+    .Banner5btn{
+        position: absolute;
+        content: "";
+        top: 59%;
+        left: 33%;
+    }
+    .Banner5btn a{
+        font-size: 35px;
+        padding: 10px 70px;
+    }
+    #BlogSection .card{
+        width: 100%;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+        font-size: 27px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 270px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:432px) and (max-width:541px){
+    .Logo h4{
+        font-size: 20px;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    .carousel-caption h1{
+        font-size: 45px;
+    }
+    .carousel-caption button{
+        padding: 5px 35px;
+    }
+    .Signupdetail{
+        width: 100%;
+    }
+    .Collectiondetail{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 18%;
+    }
+    .Productdetail{
+        position: absolute;
+        content: "";
+        top: 70%;
+        left: 30%;
+    }
+    .Banner1btn{
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 34%;
+    }
+    .Banner2btn{
+        position: absolute;
+        content: "";
+        top: 93%;
+        left: 30%;
+    }
+    .Banner3btn{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 32%;
+    }
+    .Banner4btn{
+        position: absolute;
+        content: "";
+        top: 93%;
+        left: 28%;
+    }
+    .Banner5btn{
+        position: absolute;
+        content: "";
+        top: 51%;
+        left: 36%;
+    }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 33%;
+        bottom: 45px;
+        opacity: 0;
+    }
+    #BlogSection .card{
+        width: 100%;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:390px) and (max-width:431px){
+    .Logo h4{
+        font-size: 20px;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    .carousel-caption h1{
+        font-size: 45px;
+    }
+    .carousel-caption button{
+        padding: 5px 35px;
+    }
+    .Signupdetail{
+        width: 100%;
+    }
+    .Collectiondetail{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 10%;
+    }
+    .Productdetail{
+        position: absolute;
+        content: "";
+        top: 70%;
+        left: 25%;
+    }
+    .Banner1btn{
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 28%;
+    }
+    .Banner2btn{
+        position: absolute;
+        content: "";
+        top: 93%;
+        left: 23%;
+    }
+    .Banner3btn{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 25%;
+    }
+    .Banner4btn{
+        position: absolute;
+        content: "";
+        top: 93%;
+        left: 19%;
+    }
+    .Banner5btn{
+        position: absolute;
+        content: "";
+        top: 51%;
+        left: 29%;
+    }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 27%;
+        bottom: 45px;
+        opacity: 0;
+    }
+    #BlogSection .card{
+        width: 100%;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width:376px){
+    .Logo h4{
+        font-size: 16px;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    .carousel-caption h1{
+        font-size: 35px;
+    }
+    .carousel-caption button{
+        padding: 3px 25px;
+    }
+    .Signupdetail{
+        width: 100%;
+    }
+    .Collectiondetail{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 2%;
+    }
+    .Productdetail{
+        position: absolute;
+        content: "";
+        top: 70%;
+        left: 22%;
+    }
+    
+    .Banner1btn{
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 27%;
+    }
+    .Banner2btn{
+        position: absolute;
+        content: "";
+        top: 93%;
+        left: 22%;
+    }
+    .Banner3btn{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 24%;
+    }
+    .Banner4btn{
+        position: absolute;
+        content: "";
+        top: 93%;
+        left: 18%;
+    }
+    .Banner5btn{
+        position: absolute;
+        content: "";
+        top: 51%;
+        left: 29%;
+    }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 25%;
+        bottom: 45px;
+        opacity: 0;
+    }
+    #BlogSection .card{
+        width: 100%;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width:345px){
+    .Logo h4{
+        font-size: 16px;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    .carousel-caption h1{
+        font-size: 35px;
+    }
+    .carousel-caption button{
+        padding: 3px 25px;
+    }
+    .Collectiondetail{
+        position: absolute;
+        content: "";
+        top: 33%;
+        left: 7%;
+    }
+    .Collectiondetail h2{
+        font-size: 30px;
+    }
+    .Collectiondetail h1{
+        font-size: 50px;
+    }
+    .Collectiondetail a{
+        font-size: 15px;
+    }
+    .Productdetail{
+        position: absolute;
+        content: "";
+        top: 70%;
+        left: 19%;
+    }
+    .Banner5btn{
+        position: absolute;
+        content: "";
+        top: 46%;
+        left: 29%;
+    }
+    .Signupdetail{
+        width: 100%;
+    }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 25%;
+        bottom: 45px;
+        opacity: 0;
+    }
+    #BlogSection .card{
+        width: 100%;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 5px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 40px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}

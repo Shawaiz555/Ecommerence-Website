@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./ProductDetail.css">
+    <title>Product Detail</title>
+  </head>
+  <body>
+     <div id="AdminSection">
+          <div class="container-fluid p-0">
+                <div class="row">
+                       <div class="col-lg-2 col-md-6 col-sm-12 p-0 ">
+                            <div class="Dashboard">
+                                  <div class="Logo">
+                                      <h1>MS | Store</h1>
+                                  </div><br>
+                                  <div class="MainHome">
+                                      <p>Main Home</p>
+                                      <a href="./AdminHome.html"><img src="./Dashboardlogo.png" alt="logo" width="40" height="40">
+                                      <span>Dashboard</span></a>
+                                  </div><br>
+                                  <div class="AllPage">
+                                    <p>All Page</p>
+                                    <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./ECommerencelogo.png" alt="logo" width="40" height="40">
+                                            <span>ECommerence</span></a>
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <li><a class="dropdown-item" href="./AddProduct.html">Add Product</a></li>
+                                          <li><a class="dropdown-item" href="./ProductList.html">Product List</a></li>
+                                          <li><a class="dropdown-item" href="ProductDetail.html">Product Details</a></li>
+                                        </ul>
+                                      </div><br>
+                                      <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./Categorylogo.png" alt="logo" width="40" height="40">
+                                            <span>Categories</span></a>
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <li><a class="dropdown-item" href="#">Category List</a></li>
+                                          <li><a class="dropdown-item" href="#">New Category</a></li>
+                                        </ul>
+                                      </div><br>
+                                      <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./Orderlogo.png" alt="logo" width="40" height="40">
+                                            <span>Order</span></a>
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <li><a class="dropdown-item" href="Orders.html">Order List</a></li>
+                                          <li><a class="dropdown-item" href="#">Order Details</a></li>
+                                          <li><a class="dropdown-item" href="#">Order Tracking</a></li>
+                                        </ul>
+                                      </div><br>
+                                      <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./Userlogo.png" alt="logo" width="40" height="40">
+                                            <span>User</span></a>
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <li><a class="dropdown-item" href="#">All User</a></li>
+                                          <li><a class="dropdown-item" href="#">Add New User</a></li>
+                                          <li><a class="dropdown-item" href="#">Login</a></li>
+                                          <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                                        </ul>
+                                      </div><br>
+                                      <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./Roleslogo.png" alt="logo" width="40" height="40">
+                                            <span>Roles</span></a>
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <li><a class="dropdown-item" href="#">All Roles</a></li>
+                                          <li><a class="dropdown-item" href="#">Create Roles</a></li>
+                                        </ul>
+                                      </div><br>
+                                      <div class="Gallery">
+                                        <a href="#"><img src="./Gallerylogo.png" alt="logo" width="40" height="40">
+                                        <span>Gallery</span></a>
+                                    </div><br>
+                                    <div class="Report">
+                                        <a href="#"><img src="./Reportlogo.png" alt="logo" width="40" height="40">
+                                        <span>Report</span></a>
+                                    </div>
+                                    </div><br>
+                                    <div class="Setting">
+                                        <p>Settings</p>
+                                        <div class="dropdown">
+                                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <img src="./Locationlogo.png" alt="logo" width="40" height="40">
+                                                <span>Location</span></a>
+                                            </a>
+                                          
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                              <li><a class="dropdown-item" href="#">Countries</a></li>
+                                              <li><a class="dropdown-item" href="#">States</a></li>
+                                              <li><a class="dropdown-item" href="#">Cities</a></li>
+                                            </ul>
+                                          </div><br>
+                                          <a href="#"><img src="./Settingslogo.png" alt="logo" width="40" height="40">
+                                          <span>Settings</span></a>
+                                    </div><br>
+                                    <div class="Components">
+                                        <p>Components</p>
+                                        <a href="#"><img src="./Componentslogo.png" alt="logo" width="40" height="40">
+                                        <span>Components</span></a>
+                                    </div><br>
+                                    <div class="Support">
+                                        <p>Support</p>
+                                        <a href="#"><img src="./Helpcenterlogo.png" alt="logo" width="40" height="40">
+                                        <span>Help Center</span></a><br><br>
+                                        <a href="#"><img src="./Faqslogo.png" alt="logo" width="40" height="40">
+                                        <span>FAQs</span></a><br><br>
+                                        <a href="#"><img src="./Privacyandpolicylogo.png" alt="logo" width="40" height="40">
+                                        <span>Privacy Policy</span></a>
+                                    </div><br>
+                                    <div class="ConnectUs">
+                                        <p>Connect Us</p>
+                                        <div class="Connectlinks">
+                                            <a href="#"><img src="./Whitefblogo.png" alt="" width="20" height="30"></a>
+                                            <a href="#"><img src="./whiteemaillogo.png" alt="" width="30" height="30"></a>
+                                            <a href="#"><img src="./Whiteinstalogo.png" alt="" width="30" height="30"></a>
+                                            <a href="#"><img src="./Whitetwitterlogo.png" alt="" width="45" height="28"></a>
+                                        </div>
+                                    </div><br>
+                            </div>
+                       </div>
+                       <div class="col-lg-10 col-md-6 col-sm-12 p-0">
+                             <div class="container-fluid p-0">
+                                   <div class="row Searchpartbg pb-0">
+                                        <div class="col-lg-5 col-md-5 col-sm-5 p-0">
+                                            <form class="d-flex">
+                                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                                <button class="btn Searchbtn" type="submit">Search</button>
+                                              </form>
+                                        </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 p-0">
+                                        <div class="Admindetails">
+                                             <div class="Adminlogo">
+                                                   <img src="./Userlogo.png" alt="Admin logo" width="50" height="50">
+                                             </div>
+                                             <div class="Adminuserdetails">
+                                                 <h5>Muhammad Shawaiz</h5>
+                                                 <p>Admin</p>
+                                             </div>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-2 p-0">
+                                             <div class="Logoutbtn">
+                                                <button><img src="./Logoutlogo.png" alt="Logout logo" width="50" height="50">Logout</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                             </div>
+
+                             <div class="MainBody">
+                                  <div class="container-fluid">
+                                       <div class="row">
+                                           <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="AddAttributeDetail">
+                                                      <div class="AddAttributeHead">
+                                                          <h3>Add Attribute</h3>
+                                                      </div>
+                                                      <div class="AddAttributeLinks">
+                                                         <a href="./AdminHome.html">Dashboard ></a>
+                                                         <a href="./AdminHome.html">ECommerence ></a>
+                                                         <a href="./ProductDetail.html">Product Detail</a>
+                                                      </div>
+                                                </div>
+                                           </div>
+                                       </div>
+
+                                       <div class="container-fluid mt-4 p-0">
+                                             <div class="row">
+                                                 <div class="col-lg-2 col-md-12 col-sm-12 p-0">
+                                                       <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                                            <div class="ProductSideDetailimg">
+                                                                 <img src="./Productdetailsideimg1.png" data-target="./Productdetailmainimg1.png" alt="Side Image" class="Sideimg">
+                                                            </div>
+                                                        </div>
+                                                       </div>
+                                                       <div class="row mt-3">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                                            <div class="ProductSideDetailimg">
+                                                                 <img src="./Productdetailsideimg2.png" data-target="./Productdetailmainimg2.png" alt="Side Image" class="Sideimg">
+                                                            </div>
+                                                        </div>
+                                                       </div>
+                                                       <div class="row mt-3">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                                            <div class="ProductSideDetailimg">
+                                                                 <img src="./Productdetailsideimg3.png" data-target="./Productdetailmainimg3.png" alt="Side Image" class="Sideimg">
+                                                            </div>
+                                                        </div>
+                                                       </div>
+                                                       <div class="row mt-3">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                                            <div class="ProductSideDetailimg">
+                                                                 <img src="./Productdetailsideimg4.png" data-target="./Productdetailmainimg4.png" alt="Side Image" class="Sideimg">
+                                                            </div>
+                                                        </div>
+                                                       </div>
+                                                       <div class="row mt-3">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                                            <div class="ProductSideDetailimg">
+                                                                 <img src="./Productdetailsideimg5.png" data-target="./Productdetailmainimg5.png" alt="Side Image" class="Sideimg">
+                                                            </div>
+                                                        </div>
+                                                       </div>
+                                                 </div>
+                                                 <div class="col-lg-5 col-md-12 col-sm-12">
+                                                       <div class="row">
+                                                           <div class="col-lg-12 col-md-12 col-sm-12 p-0">
+                                                            <div id="carouselExampleDark"
+                                                                class="carousel carousel-dark slide"
+                                                                data-bs-ride="carousel">
+                                                            <div class="carousel-inner">
+                                                              <div class="carousel-item active" data-bs-interval="10000">
+                                                                <img
+                                                                  src="./Productdetailmainimg1.png"
+                                                                  class="d-block"
+                                                                  alt="Slider image 1"
+                                                                  id="SliderImage1"
+                                                                  class="sliderimg"
+                                                                />
+                                                                <div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="carousel-item" data-bs-interval="20000">
+                                                                <img
+                                                                  src="./Productdetailmainimg2.png"
+                                                                  class="d-block"
+                                                                  alt="Slider image 2"
+                                                                  id="SliderImage2"
+                                                                  class="sliderimg"
+                                                                />
+                                                              </div>
+                                                              <div class="carousel-item" data-bs-interval="20000">
+                                                                <img
+                                                                  src="./Productdetailmainimg3.png"
+                                                                  class="d-block"
+                                                                  alt="Slider image 3"
+                                                                  id="SliderImage3"
+                                                                  class="sliderimg"
+                                                                />
+                                                              </div>
+                                                              <div class="carousel-item" data-bs-interval="20000">
+                                                                <img
+                                                                  src="./Productdetailmainimg4.png"
+                                                                  class="d-block"
+                                                                  alt="Slider image 4"
+                                                                  id="SliderImage4"
+                                                                  class="sliderimg"
+                                                                />
+                                                              </div>
+                                                              <div class="carousel-item" data-bs-interval="20000">
+                                                                <img
+                                                                  src="./Productdetailmainimg5.png"
+                                                                  class="d-block"
+                                                                  alt="Slider image 5"
+                                                                  id="SliderImage5"
+                                                                  class="sliderimg"
+                                                                />
+                                                              </div>
+                                                            </div>
+                                                            <button
+                                                              class="carousel-control-prev"
+                                                              type="button"
+                                                              data-bs-target="#carouselExampleDark"
+                                                              data-bs-slide="prev"
+                                                            >
+                                                              <span
+                                                                class="carousel-control-prev-icon"
+                                                                aria-hidden="true"
+                                                              ></span>
+                                                              <span class="visually-hidden">Previous</span>
+                                                            </button>
+                                                            <button
+                                                              class="carousel-control-next"
+                                                              type="button"
+                                                              data-bs-target="#carouselExampleDark"
+                                                              data-bs-slide="next"
+                                                            >
+                                                              <span
+                                                                class="carousel-control-next-icon"
+                                                                aria-hidden="true"
+                                                              ></span>
+                                                              <span class="visually-hidden">Next</span>
+                                                            </button>
+                                                          </div>
+                                                           </div>
+                                                       </div>
+                                                 </div>
+                                                 <div class="col-lg-5 col-md-12 col-sm-12">
+                                                       <div class="ProductDetail">
+                                                            <div class="ProductTitle">
+                                                                <h3>Grain Free Dry Dog Food | Rachael</h3>
+                                                                <h3>Ray® Nutrish®</h3>
+                                                            </div>
+                                                            <div class="ProductPrice">
+                                                                <p id="ItemPrice">$28.00</p>
+                                                            </div>
+                                                            <div class="ProductColor">
+                                                                <p>Color: <span>Orange</span></p>
+                                                                 <div class="Colorpicks">
+                                                                    <div class="OuterDiv"><div id="Orange"></div></div>
+                                                                    <div class="OuterDiv"><div id="Blue"></div></div>
+                                                                    <div class="OuterDiv"><div id="Yellow"></div></div>
+                                                                    <div class="OuterDiv"><div id="Gray"></div></div>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="ProductSize">
+                                                                <p>Size: <span>S</span></p>
+                                                                 <div class="Sizepicks">
+                                                                    <div id="Small">S</div>
+                                                                    <div id="Medium">M</div>
+                                                                    <div id="Large">L</div>
+                                                                    <div id="ExtraLarge">XL</div>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="ProductQuantity">
+                                                                <p>Quantity:</p>
+                                                                 <span id="Quantitybtn"><button id="Minusbtn"> - </button><span id="Quantity"> 1 </span><button id="Plusbtn"> + </button></span>
+                                                            </div>
+                                                            <div class="AddToCartBtn">
+                                                                <button>Add To Cart</button>
+                                                                <p id="TotalPrice">Total Price : <span id="Price">$28.00</span></p>
+                                                            </div>
+                                                            <div class="BuyWithPayPalBtn">
+                                                                <button>Buy With PayPal</button>
+                                                            </div>
+                                                       </div>
+                                                 </div>
+                                             </div>
+                                       </div>
+
+                                  </div>
+
+                                  
+
+
+
+
+<script>
+     const Quantity = document.getElementById("Quantity");
+     const Minusbtn = document.getElementById("Minusbtn");
+     const Plusbtn = document.getElementById("Plusbtn");
+     let quan = 1;
+     Minusbtn.addEventListener("click", () => {
+     if(quan >1)
+     {
+        quan = quan - 1;
+        Quantity.innerHTML = quan;
+     }
+        
+     });
+     Plusbtn.addEventListener("click", () => {
+        quan = quan + 1;
+        Quantity.innerHTML = quan;
+     });
+
+  document.addEventListener('DOMContentLoaded', () => {
+  const sideImages = document.querySelectorAll('.Sideimg');
+  const carousel = document.querySelector('#carouselExampleDark');
+
+  sideImages.forEach(image => {
+    image.addEventListener('click', () => {
+      const targetSrc = image.getAttribute('data-target');
+      const activeItem = carousel.querySelector('.carousel-item.active img');
+      activeItem.src = targetSrc;
+    });
+  });
+});
+</script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+                        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

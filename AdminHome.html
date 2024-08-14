@@ -1,0 +1,1270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./AdminHome.css">
+    <title>Admin Portal</title>
+  </head>
+  <body>
+     <div id="AdminSection">
+          <div class="container-fluid p-0">
+                <div class="row">
+                       <div class="col-lg-2 col-md-12 col-sm-12 p-0 ">
+                            <div class="Dashboard">
+                                  <div class="Logo">
+                                      <h1>MS | Store</h1>
+                                  </div><br>
+                                  <div class="MainHome">
+                                      <p>Main Home</p>
+                                      <a href="./AdminHome.html"><img src="./Dashboardlogo.png" alt="logo" width="40" height="40">
+                                      <span>Dashboard</span></a>
+                                  </div><br>
+                                  <div class="AllPage">
+                                    <p>All Page</p>
+                                    <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./ECommerencelogo.png" alt="logo" width="40" height="40">
+                                            <span>ECommerence</span></a>
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <li><a class="dropdown-item" href="./AddProduct.html">Add Product</a></li>
+                                          <li><a class="dropdown-item" href="ProductList.html">Product List</a></li>
+                                          <li><a class="dropdown-item" href="ProductDetail.html">Product Details</a></li>
+                                        </ul>
+                                      </div><br>
+                                      <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./Categorylogo.png" alt="logo" width="40" height="40">
+                                            <span>Categories</span></a>
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <li><a class="dropdown-item" href="#">Category List</a></li>
+                                          <li><a class="dropdown-item" href="#">New Category</a></li>
+                                        </ul>
+                                      </div><br>
+                                      <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./Orderlogo.png" alt="logo" width="40" height="40">
+                                            <span>Order</span></a>
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <li><a class="dropdown-item" href="./Orders.html">Order List</a></li>
+                                          <li><a class="dropdown-item" href="#">Order Details</a></li>
+                                          <li><a class="dropdown-item" href="#">Order Tracking</a></li>
+                                        </ul>
+                                      </div><br>
+                                      <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./Userlogo.png" alt="logo" width="40" height="40">
+                                            <span>User</span></a>
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <li><a class="dropdown-item" href="#">All User</a></li>
+                                          <li><a class="dropdown-item" href="#">Add New User</a></li>
+                                          <li><a class="dropdown-item" href="#">Login</a></li>
+                                          <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                                        </ul>
+                                      </div><br>
+                                      <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./Roleslogo.png" alt="logo" width="40" height="40">
+                                            <span>Roles</span></a>
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <li><a class="dropdown-item" href="#">All Roles</a></li>
+                                          <li><a class="dropdown-item" href="#">Create Roles</a></li>
+                                        </ul>
+                                      </div><br>
+                                      <div class="Gallery">
+                                        <a href="#"><img src="./Gallerylogo.png" alt="logo" width="40" height="40">
+                                        <span>Gallery</span></a>
+                                    </div><br>
+                                    <div class="Report">
+                                        <a href="#"><img src="./Reportlogo.png" alt="logo" width="40" height="40">
+                                        <span>Report</span></a>
+                                    </div>
+                                    </div><br>
+                                    <div class="Setting">
+                                        <p>Settings</p>
+                                        <div class="dropdown">
+                                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <img src="./Locationlogo.png" alt="logo" width="40" height="40">
+                                                <span>Location</span></a>
+                                            </a>
+                                          
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                              <li><a class="dropdown-item" href="#">Countries</a></li>
+                                              <li><a class="dropdown-item" href="#">States</a></li>
+                                              <li><a class="dropdown-item" href="#">Cities</a></li>
+                                            </ul>
+                                          </div><br>
+                                          <a href="#"><img src="./Settingslogo.png" alt="logo" width="40" height="40">
+                                          <span>Settings</span></a>
+                                    </div><br>
+                                    <div class="Components">
+                                        <p>Components</p>
+                                        <a href="#"><img src="./Componentslogo.png" alt="logo" width="40" height="40">
+                                        <span>Components</span></a>
+                                    </div><br>
+                                    <div class="Support">
+                                        <p>Support</p>
+                                        <a href="#"><img src="./Helpcenterlogo.png" alt="logo" width="40" height="40">
+                                        <span>Help Center</span></a><br><br>
+                                        <a href="#"><img src="./Faqslogo.png" alt="logo" width="40" height="40">
+                                        <span>FAQs</span></a><br><br>
+                                        <a href="#"><img src="./Privacyandpolicylogo.png" alt="logo" width="40" height="40">
+                                        <span>Privacy Policy</span></a>
+                                    </div><br>
+                                    <div class="ConnectUs">
+                                        <p>Connect Us</p>
+                                        <div class="Connectlinks">
+                                            <a href="#"><img src="./Whitefblogo.png" alt="" width="20" height="30"></a>
+                                            <a href="#"><img src="./whiteemaillogo.png" alt="" width="30" height="30"></a>
+                                            <a href="#"><img src="./Whiteinstalogo.png" alt="" width="30" height="30"></a>
+                                            <a href="#"><img src="./Whitetwitterlogo.png" alt="" width="45" height="28"></a>
+                                        </div>
+                                    </div><br>
+                            </div>
+                       </div>
+                       <div class="col-lg-10 col-md-12 col-sm-12 p-0">
+                             <div class="container-fluid p-0">
+                                   <div class="row Searchpartbg pb-0">
+                                        <div class="col-lg-5 col-md-5 col-sm-5 p-0">
+                                            <form class="d-flex">
+                                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                                <button class="btn Searchbtn" type="submit">Search</button>
+                                              </form>
+                                        </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 p-0">
+                                        <div class="Admindetails">
+                                             <div class="Adminlogo">
+                                                   <img src="./Userlogo.png" alt="Admin logo" width="50" height="50">
+                                             </div>
+                                             <div class="Adminuserdetails">
+                                                 <h5>Muhammad Shawaiz</h5>
+                                                 <p>Admin</p>
+                                             </div>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-2 p-0">
+                                             <div class="Logoutbtn">
+                                                <button><img src="./Logoutlogo.png" alt="Logout logo" width="50" height="50">Logout</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                             </div>
+
+                             <div class="MainBody">
+                             <div class="container-fluid p-0">
+                                  <div class="row">
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <div class="Cards">
+                                             <div class="DetailCards">
+                                                 <div class="DetailCardsLogo">
+                                                    <img src="./TotalSaleslogo.png" alt="Totalsales Logo" width="50" height="50">
+                                                 </div>
+                                                 <div class="DetailCardsDetail">
+                                                    <h6>Total Sales</h6>
+                                                    <p>34,945</p>
+                                                 </div>
+                                                 <div class="DetailCardsprofitlogo">
+                                                      <img src="./Profitlogo.png" alt="Profit loss logo" width="40" height="40">
+                                                 </div>
+                                                 <div class="DetailCardsprofitDetail">
+                                                    <p>1.56%</p>
+                                                 </div>
+                                             </div>
+                                             <div class="Charts">
+                                                <canvas id="acquisitions1" width="300" height="200"></canvas>
+                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <div class="Cards">
+                                            <div class="DetailCards">
+                                                <div class="DetailCardsLogo">
+                                                   <img src="./TotalIncomelogo.png" alt="Totalsales Logo" width="50" height="50">
+                                                </div>
+                                                <div class="DetailCardsDetail">
+                                                   <h6>Total Icome</h6>
+                                                   <p>37,802</p>
+                                                </div>
+                                                <div class="DetailCardsprofitlogo">
+                                                     <img src="./Losslogo.png" alt="Profit loss logo" width="40" height="40">
+                                                </div>
+                                                <div class="DetailCardsprofitDetail">
+                                                   <p>1.56%</p>
+                                                </div>
+                                            </div>
+                                            <div class="Charts">
+                                                <canvas id="acquisitions2" width="300" height="200"></canvas>
+                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <div class="Cards">
+                                            <div class="DetailCards">
+                                                <div class="DetailCardsLogo">
+                                                   <img src="./Orderpaidlogo.png" alt="Totalsales Logo" width="50" height="50">
+                                                </div>
+                                                <div class="DetailCardsDetail">
+                                                   <h6>Orders Paid</h6>
+                                                   <p>34,945</p>
+                                                </div>
+                                                <div class="DetailCardsprofitlogo">
+                                                     <img src="./Profitlogo.png" alt="Profit loss logo" width="40" height="40">
+                                                </div>
+                                                <div class="DetailCardsprofitDetail">
+                                                   <p>1.56%</p>
+                                                </div>
+                                            </div>
+                                            <div class="Charts">
+                                                <canvas id="acquisitions3" width="300" height="200"></canvas>
+                                             </div>
+                                        </div>
+                                        </div>
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <div class="Cards">
+                                            <div class="DetailCards">
+                                                <div class="DetailCardsLogo">
+                                                   <img src="./Totalvisitorlogo.png" alt="Totalsales Logo" width="50" height="50">
+                                                </div>
+                                                <div class="DetailCardsDetail">
+                                                   <h6>Total Visitor</h6>
+                                                   <p>34,945</p>
+                                                </div>
+                                                <div class="DetailCardsprofitlogo">
+                                                     <img src="./Profitlogo.png" alt="Profit loss logo" width="40" height="40">
+                                                </div>
+                                                <div class="DetailCardsprofitDetail">
+                                                   <p>1.56%</p>
+                                                </div>
+                                            </div>
+                                            <div class="Charts">
+                                                <canvas id="acquisitions4" width="300" height="200"></canvas>
+                                             </div>
+                                        </div>
+                                        </div>
+                                  </div>
+                             </div>
+
+                             <div class="container-fluid p-0 mt-5 mb-5">
+                                  <div class="row mt-4">
+                                       <div class="col-lg-4 col-md-12 col-sm-12">
+                                        <div class="OrderChart" style="width: 100%; height: 515px;">
+                                            <h4>Recent Order</h4>
+                                            <canvas id="acquisitions5" width="300" height="250"></canvas>
+                                         </div>
+                                       </div>
+                                       <div class="col-lg-4 col-md-12 col-sm-12">
+                                            <div class="TopProductsCard" style="width: 100%; height: 515px;">
+                                            <div class="TopProducts">
+                                                 <h4>Top Products</h4>
+                                                 <a href="#">View all</a>
+                                            </div>
+                                            <div class="Products" style="width: 100%; overflow-x: auto;">
+                                                <table style="width: 150%;">
+                                                    <tr>
+                                                        <td style="width: 10%;">
+                                                            <div class="Productimg">
+                                                                <img src="./TopProduct1Img.png" alt="Product image" width="40" height="40">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 45%;">
+                                                            <div class="ProductName">
+                                                                <a href="#">Patimax Fragrance Long</a>
+                                                                <p>100 Items</p>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 30%;">
+                                                            <div class="ProductCoupenCode">
+                                                                <h6>Coupon Code</h6>
+                                                                <p>Sflat</p>
+                                                             </div>
+                                                        </td>
+                                                        <td style="width: 15%;">
+                                                            <div class="ProductCountry">
+                                                                <img src="./TopProduct1Country.png" alt="" width="25" height="25">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 10%;">
+                                                            <div class="ProductSaleprice">
+                                                                <h6>-15%</h6>
+                                                                <p>$27.00</p>
+                                                              </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="width: 10%;">
+                                                            <div class="Productimg">
+                                                                <img src="./TopProduct2Img.png" alt="Product image" width="40" height="40">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 45%;">
+                                                            <div class="ProductName">
+                                                                <a href="#">Nulo MedalSeries Adult Cat</a>
+                                                                <p>100 Items</p>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 30%;">
+                                                            <div class="ProductCoupenCode">
+                                                                <h6>Coupon Code</h6>
+                                                                <p>Sflat</p>
+                                                             </div>
+                                                        </td>
+                                                        <td style="width: 15%;">
+                                                            <div class="ProductCountry">
+                                                                <img src="./TopProduct2Country.png" alt="" width="25" height="25">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 10%;">
+                                                            <div class="ProductSaleprice">
+                                                                <h6>-15%</h6>
+                                                                <p>$27.00</p>
+                                                              </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="width: 10%;">
+                                                            <div class="Productimg">
+                                                                <img src="./TopProduct3Img.png" alt="Product image" width="40" height="40">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 45%;">
+                                                            <div class="ProductName">
+                                                                <a href="#">Pedigree Puppy Dry Dog</a>
+                                                                <p>100 Items</p>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 30%;">
+                                                            <div class="ProductCoupenCode">
+                                                                <h6>Coupon Code</h6>
+                                                                <p>Sflat</p>
+                                                             </div>
+                                                        </td>
+                                                        <td style="width: 15%;">
+                                                            <div class="ProductCountry">
+                                                                <img src="./TopProduct3Country.png" alt="" width="25" height="25">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 10%;">
+                                                            <div class="ProductSaleprice">
+                                                                <h6>-15%</h6>
+                                                                <p>$27.00</p>
+                                                              </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="width: 10%;">
+                                                            <div class="Productimg">
+                                                                <img src="./TopProduct4Img.png" alt="Product image" width="40" height="40">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 45%;">
+                                                            <div class="ProductName">
+                                                                <a href="#">Biscoito Premier Cookie</a>
+                                                                <p>100 Items</p>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 30%;">
+                                                            <div class="ProductCoupenCode">
+                                                                <h6>Coupon Code</h6>
+                                                                <p>Sflat</p>
+                                                             </div>
+                                                        </td>
+                                                        <td style="width: 15%;">
+                                                            <div class="ProductCountry">
+                                                                <img src="./TopProduct4Country.png" alt="" width="25" height="25">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 10%;">
+                                                            <div class="ProductSaleprice">
+                                                                <h6>-15%</h6>
+                                                                <p>$27.00</p>
+                                                              </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="width: 10%;">
+                                                            <div class="Productimg">
+                                                                <img src="./TopProduct5Img.png" alt="Product image" width="40" height="40">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 45%;">
+                                                            <div class="ProductName">
+                                                                <a href="#">Pedigree Adult Dry Dog</a>
+                                                                <p>100 Items</p>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 30%;">
+                                                            <div class="ProductCoupenCode">
+                                                                <h6>Coupon Code</h6>
+                                                                <p>Sflat</p>
+                                                             </div>
+                                                        </td>
+                                                        <td style="width: 15%;">
+                                                            <div class="ProductCountry">
+                                                                <img src="./TopProduct5Country.png" alt="" width="25" height="25">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 10%;">
+                                                            <div class="ProductSaleprice">
+                                                                <h6>-15%</h6>
+                                                                <p>$27.00</p>
+                                                              </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="width: 10%;">
+                                                            <div class="Productimg">
+                                                                <img src="./TopProduct3Img.png" alt="Product image" width="40" height="40">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 45%;">
+                                                            <div class="ProductName">
+                                                                <a href="#">Pedigree Puppy Dry Dog</a>
+                                                                <p>100 Items</p>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 30%;">
+                                                            <div class="ProductCoupenCode">
+                                                                <h6>Coupon Code</h6>
+                                                                <p>Sflat</p>
+                                                             </div>
+                                                        </td>
+                                                        <td style="width: 15%;">
+                                                            <div class="ProductCountry">
+                                                                <img src="./TopProduct3Country.png" alt="" width="25" height="25">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 10%;">
+                                                            <div class="ProductSaleprice">
+                                                                <h6>-15%</h6>
+                                                                <p>$27.00</p>
+                                                              </div>
+                                                        </td>
+                                                    </tr>
+
+                                                </table>   
+                                            </div>
+                                        </div>
+                                       </div>
+                                       <div class="col-lg-4 col-md-12 col-sm-12">
+                                            <div class="TopCountryCard" style="width: 100%; height: 515px;">
+                                            <div class="TopCountryHeadDetail">
+                                                 <div class="TopCountryHead">
+                                                      <h4>Top Countries by Sale</h4>
+                                                 </div>
+                                                 <div class="TopCountryLink">
+                                                    <a href="#">View All</a>
+                                               </div>
+                                            </div>
+                                            <div class="TopCountriesSaleTable" style="width: 100%; overflow-x: auto;">
+                                                  <div class="TotalIncome">
+                                                      <div>
+                                                        <h3>$37,802</h3>
+                                                      </div>
+                                                      <div>
+                                                        <img src="./Profitlogo.png" alt="" width="50" height="50">
+                                                      </div>
+                                                      <div>
+                                                         <p>1.56%</p>
+                                                      </div>
+                                                  </div>
+                                                  <table style="width: 150%;">
+                                                    <tr>
+                                                        <td style="width: 20%;">
+                                                            <div class="Countryimg">
+                                                                <img src="./TopProduct2Country.png" alt="Country image" width="30" height="30">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 40%;">
+                                                            <div class="CountryName">
+                                                                <a href="#">India</a>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <div class="ProfitLossimg">
+                                                                <img src="./Profitlogo.png" alt="" width="30" height="30">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <div class="ProductSale">
+                                                                <p>6972</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td style="width: 20%;">
+                                                            <div class="Countryimg">
+                                                                <img src="./TopProduct3Country.png" alt="Country image" width="30" height="30">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 40%;">
+                                                            <div class="CountryName">
+                                                                <a href="#">America</a>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <div class="ProfitLossimg">
+                                                                <img src="./Profitlogo.png" alt="" width="30" height="30">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <div class="ProductSale">
+                                                                <p>6972</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="width: 20%;">
+                                                            <div class="Countryimg">
+                                                                <img src="./TopProduct4Country.png" alt="Country image" width="30" height="30">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 40%;">
+                                                            <div class="CountryName">
+                                                                <a href="#">Brazil</a>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <div class="ProfitLossimg">
+                                                                <img src="./Losslogo.png" alt="" width="30" height="30">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <div class="ProductSale">
+                                                                <p>6972</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="width: 20%;">
+                                                            <div class="Countryimg">
+                                                                <img src="./TopProduct5Country.png" alt="Country image" width="30" height="30">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 40%;">
+                                                            <div class="CountryName">
+                                                                <a href="#">France</a>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <div class="ProfitLossimg">
+                                                                <img src="./Losslogo.png" alt="" width="30" height="30">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <div class="ProductSale">
+                                                                <p>6972</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="width: 20%;">
+                                                            <div class="Countryimg">
+                                                                <img src="./TopProduct1Country.png" alt="Country image" width="30" height="30">
+                                                            </div>
+                                                        </td>
+                                                        <td style="width: 40%;">
+                                                            <div class="CountryName">
+                                                                <a href="#">Belgium</a>
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <div class="ProfitLossimg">
+                                                                <img src="./Profitlogo.png" alt="" width="30" height="30">
+                                                              </div>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <div class="ProductSale">
+                                                                <p>6972</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </div>  
+                                       </div>
+                                    </div>
+                                  </div>
+                             </div>
+                             
+                             <div class="container-fluid p-0">
+                                <div class="row">
+                                  <div class="col-lg-3 col-md-12 col-sm-12">
+                                      <div class="Cards">
+                                           <div class="DetailCards">
+                                               <div class="DetailCardsLogo">
+                                                  <img src="./TotalSaleslogo.png" alt="Totalsales Logo" width="50" height="50">
+                                               </div>
+                                               <div class="DetailCardsDetail">
+                                                  <h6>Total Sales</h6>
+                                                  <p>34,945</p>
+                                               </div>
+                                               <div class="DetailCardsprofitlogo">
+                                                    <img src="./Profitlogo.png" alt="Profit loss logo" width="40" height="40">
+                                               </div>
+                                               <div class="DetailCardsprofitDetail">
+                                                  <p>1.56%</p>
+                                               </div>
+                                           </div>
+                                           <div class="Charts">
+                                              <canvas id="acquisitions6" width="300" height="200"></canvas>
+                                           </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3 col-md-12 col-sm-12">
+                                      <div class="Cards">
+                                          <div class="DetailCards">
+                                              <div class="DetailCardsLogo">
+                                                 <img src="./TotalIncomelogo.png" alt="Totalsales Logo" width="50" height="50">
+                                              </div>
+                                              <div class="DetailCardsDetail">
+                                                 <h6>Total Icome</h6>
+                                                 <p>37,802</p>
+                                              </div>
+                                              <div class="DetailCardsprofitlogo">
+                                                   <img src="./Losslogo.png" alt="Profit loss logo" width="40" height="40">
+                                              </div>
+                                              <div class="DetailCardsprofitDetail">
+                                                 <p>1.56%</p>
+                                              </div>
+                                          </div>
+                                          <div class="Charts">
+                                              <canvas id="acquisitions7" width="300" height="200"></canvas>
+                                           </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3 col-md-12 col-sm-12">
+                                      <div class="Cards">
+                                          <div class="DetailCards">
+                                              <div class="DetailCardsLogo">
+                                                 <img src="./Orderpaidlogo.png" alt="Totalsales Logo" width="50" height="50">
+                                              </div>
+                                              <div class="DetailCardsDetail">
+                                                 <h6>Orders Paid</h6>
+                                                 <p>34,945</p>
+                                              </div>
+                                              <div class="DetailCardsprofitlogo">
+                                                   <img src="./Profitlogo.png" alt="Profit loss logo" width="40" height="40">
+                                              </div>
+                                              <div class="DetailCardsprofitDetail">
+                                                 <p>1.56%</p>
+                                              </div>
+                                          </div>
+                                          <div class="Charts">
+                                              <canvas id="acquisitions8" width="300" height="200"></canvas>
+                                           </div>
+                                      </div>
+                                      </div>
+                                  <div class="col-lg-3 col-md-12 col-sm-12">
+                                      <div class="Cards">
+                                          <div class="DetailCards">
+                                              <div class="DetailCardsLogo">
+                                                 <img src="./Totalvisitorlogo.png" alt="Totalsales Logo" width="50" height="50">
+                                              </div>
+                                              <div class="DetailCardsDetail">
+                                                 <h6>Total Visitor</h6>
+                                                 <p>34,945</p>
+                                              </div>
+                                              <div class="DetailCardsprofitlogo">
+                                                   <img src="./Profitlogo.png" alt="Profit loss logo" width="40" height="40">
+                                              </div>
+                                              <div class="DetailCardsprofitDetail">
+                                                 <p>1.56%</p>
+                                              </div>
+                                          </div>
+                                          <div class="Charts">
+                                              <canvas id="acquisitions9" width="300" height="200"></canvas>
+                                           </div>
+                                      </div>
+                                      </div>
+                                </div>
+                           </div>
+
+
+                        </div>
+
+                       </div>
+                </div>
+          </div>
+     </div>
+     
+
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+     <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+          (async function() {
+            const data = [
+              { month: 'Jan', count: 5 },
+              { month: 'Feb', count: 20 },
+              { month: 'Mar', count: 10 },
+              { month: 'Apr', count: 30 },
+              { month: 'May', count: 5 },
+              { month: 'June', count: 15 },
+              { month: 'July', count: 20 },
+              { month: 'Aug', count: 30 },
+              { month: 'Sept', count: 10 },
+              { month: 'Oct', count: 5 },
+              { month: 'Nov', count: 10 },
+              { month: 'Dec', count: 30 },
+            ];
+    
+            new Chart(
+              document.getElementById('acquisitions1'),
+              {
+                type: 'line',
+                options: {
+                  animation: true,
+                  plugins: {
+                    legend: {
+                      display: true
+                    },
+                    tooltip: {
+                      enabled: true
+                    }
+                  },
+                  scales: {
+                    x: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    },
+                    y: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    }
+                  }
+                },
+                data: {
+                  labels: data.map(row => row.month),
+                  datasets: [
+                    {
+                      label: 'Total Sales Per Month',
+                      data: data.map(row => row.count),
+                      backgroundColor: 'rgba(75, 192, 192, 0.2)', // Bar background color
+                      borderColor: 'rgba(75, 192, 192, 1)', // Bar border color
+                      borderWidth: 1
+                    }
+                  ]
+                }
+              }
+            );
+          })();
+        });
+        
+        document.addEventListener('DOMContentLoaded', (event) => {
+          (async function() {
+            const data = [
+              { month: 'Jan', count: 200000 },
+              { month: 'Feb', count: 150000 },
+              { month: 'Mar', count: 250000 },
+              { month: 'Apr', count: 300000 },
+              { month: 'May', count: 200000 },
+              { month: 'June', count: 100000 },
+              { month: 'July', count: 180000 },
+              { month: 'Aug', count: 200000 },
+              { month: 'Sept', count: 150000 },
+              { month: 'Oct', count: 50000 },
+              { month: 'Nov', count: 100000 },
+              { month: 'Dec', count: 300000 },
+            ];
+    
+            new Chart(
+              document.getElementById('acquisitions2'),
+              {
+                type: 'bar',
+                options: {
+                  animation: true,
+                  plugins: {
+                    legend: {
+                      display: true
+                    },
+                    tooltip: {
+                      enabled: true
+                    }
+                  },
+                  scales: {
+                    x: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    },
+                    y: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    }
+                  }
+                },
+                data: {
+                  labels: data.map(row => row.month),
+                  datasets: [
+                    {
+                      label: 'Total Income Per Month',
+                      data: data.map(row => row.count),
+                      backgroundColor: 'rgba(75, 192, 192, 0.2)', // Bar background color
+                      borderColor: 'rgba(75, 192, 192, 1)', // Bar border color
+                      borderWidth: 1
+                    }
+                  ]
+                }
+              }
+            );
+          })();
+        });
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+          (async function() {
+            const data = [
+              { month: 'Jan', count: 10 },
+              { month: 'Feb', count: 5 },
+              { month: 'Mar', count: 10 },
+              { month: 'Apr', count: 30 },
+              { month: 'May', count: 10 },
+              { month: 'June', count: 20 },
+              { month: 'July', count: 25 },
+              { month: 'Aug', count: 10 },
+              { month: 'Sept', count: 5 },
+              { month: 'Oct', count: 30 },
+              { month: 'Nov', count: 5 },
+              { month: 'Dec', count: 30 },
+            ];
+    
+            new Chart(
+              document.getElementById('acquisitions3'),
+              {
+                type: 'line',
+                options: {
+                  animation: true,
+                  plugins: {
+                    legend: {
+                      display: true
+                    },
+                    tooltip: {
+                      enabled: true
+                    }
+                  },
+                  scales: {
+                    x: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    },
+                    y: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    }
+                  }
+                },
+                data: {
+                  labels: data.map(row => row.month),
+                  datasets: [
+                    {
+                      label: 'Orders Paid in a Month',
+                      data: data.map(row => row.count),
+                      backgroundColor: 'rgba(75, 192, 192, 0.2)', // Bar background color
+                      borderColor: 'rgba(75, 192, 192, 1)', // Bar border color
+                      borderWidth: 1
+                    }
+                  ]
+                }
+              }
+            );
+          })();
+        });
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+          (async function() {
+            const data = [
+              { month: 'Jan', count: 10 },
+              { month: 'Feb', count: 20 },
+              { month: 'Mar', count: 15 },
+              { month: 'Apr', count: 25 },
+              { month: 'May', count: 22 },
+              { month: 'June', count: 30 },
+              { month: 'July', count: 28 },
+              { month: 'Aug', count: 30 },
+              { month: 'Sept', count: 20 },
+              { month: 'Oct', count: 10 },
+              { month: 'Nov', count: 15 },
+              { month: 'Dec', count: 30 },
+            ];
+    
+            new Chart(
+              document.getElementById('acquisitions4'),
+              {
+                type: 'bar',
+                options: {
+                  animation: true,
+                  plugins: {
+                    legend: {
+                      display: true
+                    },
+                    tooltip: {
+                      enabled: true
+                    }
+                  },
+                  scales: {
+                    x: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    },
+                    y: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    }
+                  }
+                },
+                data: {
+                  labels: data.map(row => row.month),
+                  datasets: [
+                    {
+                      label: 'Total Visitors Per Month',
+                      data: data.map(row => row.count),
+                      backgroundColor: 'rgba(75, 192, 192, 0.2)', // Bar background color
+                      borderColor: 'rgba(75, 192, 192, 1)', // Bar border color
+                      borderWidth: 1
+                    }
+                  ]
+                }
+              }
+            );
+          })();
+        });
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+          (async function() {
+            const data = [
+              { month: 'Jan', count: 20 },
+              { month: 'Feb', count: 10 },
+              { month: 'Mar', count: 5 },
+              { month: 'Apr', count: 15 },
+              { month: 'May', count: 30 },
+              { month: 'June', count: 14 },
+              { month: 'July', count: 27 },
+              { month: 'Aug', count: 12 },
+              { month: 'Sept', count: 16 },
+              { month: 'Oct', count: 20 },
+              { month: 'Nov', count: 30 },
+              { month: 'Dec', count: 10 },
+            ];
+    
+            new Chart(
+              document.getElementById('acquisitions5'),
+              {
+                type: 'line',
+                options: {
+                  animation: true,
+                  plugins: {
+                    legend: {
+                      display: false
+                    },
+                    tooltip: {
+                      enabled: true
+                    }
+                  },
+                  scales: {
+                    x: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    },
+                    y: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    }
+                  }
+                },
+                data: {
+                  labels: data.map(row => row.month),
+                  datasets: [
+                    {
+                      label: 'Acquisitions by month',
+                      data: data.map(row => row.count),
+                      backgroundColor: 'rgba(75, 192, 192, 0.2)', // Bar background color
+                      borderColor: 'rgba(75, 192, 192, 1)', // Bar border color
+                      borderWidth: 1
+                    }
+                  ]
+                }
+              }
+            );
+          })();
+        });
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+          (async function() {
+            const data = [
+              { month: 'Jan', count: 5 },
+              { month: 'Feb', count: 20 },
+              { month: 'Mar', count: 10 },
+              { month: 'Apr', count: 30 },
+              { month: 'May', count: 5 },
+              { month: 'June', count: 15 },
+              { month: 'July', count: 20 },
+              { month: 'Aug', count: 30 },
+              { month: 'Sept', count: 10 },
+              { month: 'Oct', count: 5 },
+              { month: 'Nov', count: 10 },
+              { month: 'Dec', count: 30 },
+            ];
+    
+            new Chart(
+              document.getElementById('acquisitions6'),
+              {
+                type: 'bar',
+                options: {
+                  animation: true,
+                  plugins: {
+                    legend: {
+                      display: true
+                    },
+                    tooltip: {
+                      enabled: true
+                    }
+                  },
+                  scales: {
+                    x: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    },
+                    y: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    }
+                  }
+                },
+                data: {
+                  labels: data.map(row => row.month),
+                  datasets: [
+                    {
+                      label: 'Total Sales Per Month',
+                      data: data.map(row => row.count),
+                      backgroundColor: 'rgba(75, 192, 192, 0.2)', // Bar background color
+                      borderColor: 'rgba(75, 192, 192, 1)', // Bar border color
+                      borderWidth: 1
+                    }
+                  ]
+                }
+              }
+            );
+          })();
+        });
+        
+        document.addEventListener('DOMContentLoaded', (event) => {
+          (async function() {
+            const data = [
+              { month: 'Jan', count: 200000 },
+              { month: 'Feb', count: 150000 },
+              { month: 'Mar', count: 250000 },
+              { month: 'Apr', count: 300000 },
+              { month: 'May', count: 200000 },
+              { month: 'June', count: 100000 },
+              { month: 'July', count: 180000 },
+              { month: 'Aug', count: 200000 },
+              { month: 'Sept', count: 150000 },
+              { month: 'Oct', count: 50000 },
+              { month: 'Nov', count: 100000 },
+              { month: 'Dec', count: 300000 },
+            ];
+    
+            new Chart(
+              document.getElementById('acquisitions7'),
+              {
+                type: 'line',
+                options: {
+                  animation: true,
+                  plugins: {
+                    legend: {
+                      display: true
+                    },
+                    tooltip: {
+                      enabled: true
+                    }
+                  },
+                  scales: {
+                    x: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    },
+                    y: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    }
+                  }
+                },
+                data: {
+                  labels: data.map(row => row.month),
+                  datasets: [
+                    {
+                      label: 'Total Income Per Month',
+                      data: data.map(row => row.count),
+                      backgroundColor: 'rgba(75, 192, 192, 0.2)', // Bar background color
+                      borderColor: 'rgba(75, 192, 192, 1)', // Bar border color
+                      borderWidth: 1
+                    }
+                  ]
+                }
+              }
+            );
+          })();
+        });
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+          (async function() {
+            const data = [
+              { month: 'Jan', count: 10 },
+              { month: 'Feb', count: 5 },
+              { month: 'Mar', count: 10 },
+              { month: 'Apr', count: 30 },
+              { month: 'May', count: 10 },
+              { month: 'June', count: 20 },
+              { month: 'July', count: 25 },
+              { month: 'Aug', count: 10 },
+              { month: 'Sept', count: 5 },
+              { month: 'Oct', count: 30 },
+              { month: 'Nov', count: 5 },
+              { month: 'Dec', count: 30 },
+            ];
+    
+            new Chart(
+              document.getElementById('acquisitions8'),
+              {
+                type: 'bar',
+                options: {
+                  animation: true,
+                  plugins: {
+                    legend: {
+                      display: true
+                    },
+                    tooltip: {
+                      enabled: true
+                    }
+                  },
+                  scales: {
+                    x: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    },
+                    y: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    }
+                  }
+                },
+                data: {
+                  labels: data.map(row => row.month),
+                  datasets: [
+                    {
+                      label: 'Orders Paid in a Month',
+                      data: data.map(row => row.count),
+                      backgroundColor: 'rgba(75, 192, 192, 0.2)', // Bar background color
+                      borderColor: 'rgba(75, 192, 192, 1)', // Bar border color
+                      borderWidth: 1
+                    }
+                  ]
+                }
+              }
+            );
+          })();
+        });
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+          (async function() {
+            const data = [
+              { month: 'Jan', count: 10 },
+              { month: 'Feb', count: 20 },
+              { month: 'Mar', count: 15 },
+              { month: 'Apr', count: 25 },
+              { month: 'May', count: 22 },
+              { month: 'June', count: 30 },
+              { month: 'July', count: 28 },
+              { month: 'Aug', count: 30 },
+              { month: 'Sept', count: 20 },
+              { month: 'Oct', count: 10 },
+              { month: 'Nov', count: 15 },
+              { month: 'Dec', count: 30 },
+            ];
+    
+            new Chart(
+              document.getElementById('acquisitions9'),
+              {
+                type: 'line',
+                options: {
+                  animation: true,
+                  plugins: {
+                    legend: {
+                      display: true
+                    },
+                    tooltip: {
+                      enabled: true
+                    }
+                  },
+                  scales: {
+                    x: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    },
+                    y: {
+                      grid: {
+                        color: 'rgba(200, 200, 200, 0.2)' // Gridline color
+                      }
+                    }
+                  }
+                },
+                data: {
+                  labels: data.map(row => row.month),
+                  datasets: [
+                    {
+                      label: 'Total Visitors Per Month',
+                      data: data.map(row => row.count),
+                      backgroundColor: 'rgba(75, 192, 192, 0.2)', // Bar background color
+                      borderColor: 'rgba(75, 192, 192, 1)', // Bar border color
+                      borderWidth: 1
+                    }
+                  ]
+                }
+              }
+            );
+          })();
+        });
+
+      </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

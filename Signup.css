@@ -1,0 +1,619 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+.Navbar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.Logo h4{
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 100%;
+    padding: 5px 30px;
+    display: grid;
+    justify-content: end;
+}
+.nav-item{
+    padding: 0px 15px;
+}
+.nav .nav-link{
+    font-size: 16px;
+    font-family: Montserrat-Regular;
+    color: black !important;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.nav .nav-link.active{
+    color: #e65540 !important;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav .nav-link:hover{
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Iconlinks{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    gap: 20px;
+}
+.Headbg img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.Headbg{
+    position: relative;
+}
+.Headbgdetail{
+    position: absolute;
+    content: "";
+    top: 40%;
+    left: 40%;
+}
+.Headbgdetail h1{
+    color: black;
+    font-size: 70px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+.Headbgdetail p{
+    color: white;
+    font-size: 25px;
+    font-family: Montserrat-Regular;
+    display: flex;
+    justify-content: center;
+}
+#ContactSection{
+    background-color:whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.SignupDetails img{
+    width: 100%;
+    height: 85vh;
+    padding-left: 20px;
+}
+.Signuphead h2{
+    margin-top: 10px;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat-Regular;
+    letter-spacing: 4px;
+}
+.FormDetails{
+    padding-top: 30px;
+}
+.FormDetails .form{
+    border-radius: 30px;
+    padding: 30px 25px;
+    background-color:white;
+}
+.FormDetails input{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-family: Montserrat-Regular;
+    border-color:white;
+    padding: 10px 20px;
+}
+.formbtn{
+    display: flex;
+    justify-content: center;
+}
+.FormDetails #Signupbtn{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 5px 40px;
+    border-radius: 30px;
+}
+.FormDetails #Signupbtn:hover{
+    background-color: #e65540;
+    border-color: #e65540;
+    color: white;
+}
+.LogOutbtn{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+.LogOutbtn:hover{
+    background-color: aqua;
+    color: black;
+    border-color: aqua;
+}
+
+
+#FooterSection{
+    background-color: #f2f2f2;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#FooterSection .Getintouchdetail,#FooterSection .SocialLinks{
+    padding-left: 50px;
+}
+#FooterSection .SocialLinks a{
+    padding-right: 10px;
+}
+#FooterSection .SocialLinks a img:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+}
+#FooterSection .Getintouchdetail h5{
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+    padding-bottom: 20px;
+}
+#FooterSection .Getintouchdetail p{
+    color: #555555;
+    font-size: 15px;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Categories h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Categorieslinks{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Categorieslinks a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Categorieslinks a:hover{
+    color: #e65540;
+}
+#FooterSection .Linkspart h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Links{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Links a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Links a:hover{
+    color: #e65540;
+}
+#FooterSection .Help h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Helplinks{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Helplinks a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Helplinks a:hover{
+    color: #e65540;
+}
+
+#FooterSection .Newsletter h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Newsletterdetail input{
+    background-color: #f2f2f2;
+    border-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-family: Montserrat-Medium;
+    width: 100%;
+}
+#FooterSection .Newsletterdetail a{
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Montserrat-Medium;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#FooterSection .Newsletterdetail a:hover{
+    background-color: #e65540;
+}
+
+@media screen and (max-width:345px){
+    .Logo h4{
+        font-size: 16px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 28%;
+    }
+    .Headbgdetail h1{
+        font-size: 50px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    .SignupDetails img{
+        width: 100%;
+        height: 50vh;
+    }
+    
+}
+@media screen and (max-width:376px){
+    .Logo h4{
+        font-size: 16px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 20%;
+    }
+    .Headbgdetail h1{
+        font-size: 55px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    .SignupDetails img{
+        width: 100%;
+        height: 50vh;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 60px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:390px) and (max-width:431px){
+    .Logo h4{
+        font-size: 20px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 55%;
+        left: 28%;
+    }
+    .Headbgdetail h1{
+        font-size: 50px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    .SignupDetails img{
+        width: 100%;
+        height: 50vh;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:432px) and (max-width:541px){
+    .Logo h4{
+        font-size: 20px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 30%;
+    }
+    .Headbgdetail h1{
+        font-size: 55px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    .SignupDetails img{
+        width: 100%;
+        height: 70vh;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:821px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 32%;
+    }
+    .Headbgdetail h1{
+        font-size: 75px;
+    }
+    .Headbgdetail p{
+        font-size: 20px;
+    }
+    .SignupDetails img{
+        width: 100%;
+        height: 60vh;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+        font-size: 27px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 270px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:821px) and (max-width:913px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 30%;
+    }
+    .Headbgdetail h1{
+        font-size: 65px;
+    }
+    .Headbgdetail p{
+        font-size: 20px;
+    }
+    .SignupDetails img{
+        width: 100%;
+        height: 60vh;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+        font-size: 27px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 320px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:914px) and (max-width:1025px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 35%;
+    }
+    .Headbgdetail h1{
+        font-size: 80px;
+    }
+    .Headbgdetail p{
+        font-size: 25px;
+    }
+    .Signuphead h2{
+        font-size: 29px;
+    }
+    .SignupDetails img{
+        width: 100%;
+        height: 45vh;
+    }
+    
+}

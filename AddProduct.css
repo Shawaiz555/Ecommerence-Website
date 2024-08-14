@@ -1,0 +1,291 @@
+body{
+    background-color: #0f172a;
+    margin: 0;
+    padding: 0;
+}
+.Dashboard{
+    background-color:#1e293b;
+    padding: 10px;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.Dashboard::-webkit-scrollbar {
+  display: none;
+}
+.Logo h1{
+    color: white;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Montserrat-Medium;
+}
+.MainHome p,.AllPage p,.Setting p,.Components p,.Support p,.ConnectUs p{
+    background-color: #0f172a;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    font-family: Mon3serrat-Medium;
+    color: white;
+
+}
+.MainHome a,.AllPage a,.Gallery a,.Report a,.Setting a,.Components a,.Support a{
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+}
+.MainHome a:hover,.AllPage a:hover,.Gallery a:hover,.Report a:hover,.Setting a:hover,.Components a:hover,.Support a:hover{
+    color:aqua;
+    background-color: #1e293b;
+}
+.MainHome span{
+    padding-top: 5px;
+}
+.AllPage .dropdown{
+    width: 80%;
+}
+.AllPage .dropdown-menu,.Setting .dropdown-menu{
+    background-color: #1e293b;
+    border: none;
+    width: 80%;
+    text-align: center;
+}
+.Connectlinks{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.Searchpartbg{
+    background-color: #1e293b;
+    padding: 15px 0px;
+}
+.Searchbtn{
+    padding: 10px 30px;
+    margin-left: 20px;
+    color: white;
+    border-color: #0f172a;
+    font-family: Montserrat-Medium;
+}
+.Searchbtn:hover{
+    color: black;
+    background-color: white;
+}
+.form-control{
+    background-color: #0f172a;
+    font-size: 16px;
+    margin-left: 15px;
+    font-family: Montserrat-Medium;
+}
+.Admindetails{
+    display: grid;
+    grid-template-columns: 60px 160px;
+    justify-content: center;
+}
+.Adminuserdetails h5{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: Montserrat-Medium;
+}
+.Adminuserdetails p{
+    color: white;
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Logoutbtn button{
+    background-color: transparent;
+    border: 1px solid #1e293b;
+    color: white;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+}
+.Logoutbtn button:hover{
+    color: black;
+}
+.MainBody{
+    padding-bottom: 40px;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.MainBody::-webkit-scrollbar{
+    display: none;
+}
+.AddAttributeDetail{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.AddAttributeDetail .AddAttributeHead h3{
+    color: white;
+    font-family: Montserrat-Medium;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.AddAttributeDetail .AddAttributeLinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.AddAttributeDetail .AddAttributeLinks a:hover{
+    color: aqua;
+}
+.AddAttributeForm{
+    background-color: #1e293b;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.ProductNameInput{
+    margin-top: 50px;
+}
+.ProductNameInput label,.ProductQuantityAndPriceInput label{
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-family: Montserrat-Medium;
+}
+.ProductNameInput input{
+    width: 100%;
+    color: black;
+    border-color: black;
+    font-family: Montserrat-Medium;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.ProductNameInput p{
+    padding-left: 10px;
+    padding-top: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: Montserrat-Medium;
+}
+.ProductQuantityAndPriceInput{
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.ProductQuantityAndPriceInput input{
+    width: 100%;
+    color: black;
+    border-color: black;
+    font-family: Montserrat-Medium;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.AddProductCartDetail{
+    background-color: #1e293b;
+    padding: 30px 0px;
+    border-radius: 20px;
+}
+.AddProductCartDetail .UploadImageHead h5{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.AddProductCartDetail .Productimg1,.AddProductCartDetail .Productimg2{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.AddProductCartDetail .Image .Productimgpath{
+    color: white;
+    width: 100%;
+    font-family: Montserrat-Medium;
+}
+.AddProductCartDetail .item.up-load{
+    width: 100%;
+    height: 230px;
+    border: 2px dashed black;
+}
+.AddProductCartDetail .uploadfile{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.AddProductCartDetail .uploadfile .text-tiny {
+    width: 100%;
+    font-family: Montserrat-Medium;
+    max-width: 177px;
+    letter-spacing: 1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.AddProductCartDetail .text-tiny {
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+}
+.AddProductCartDetail .uploadfile input {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.AddProductCartDetail .ImportantText p{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.AddProductButtons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.AddProductButtons .AddButton button{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-family: Montserrat-Medium;
+    border-color: blue;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 40px;
+}
+.AddProductButtons .AddButton button:hover{
+    background-color: darkblue;
+}
+.AddProductButtons .SaveButton button{
+    background-color: white;
+    color: blue;
+    border: none;
+    letter-spacing: 1px;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px 40px;
+}
+.AddProductButtons .SaveButton button:hover{
+    background-color: darkblue;
+    color: white;
+}
+.AddProductButtons .ScheduleButton button{
+    background-color: white;
+    color: black;
+    border: none;
+    letter-spacing: 1px;
+    font-family: Montserrat-Medium;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px 40px;
+}
+.AddProductButtons .ScheduleButton button:hover{
+    background-color: darkblue;
+    color: white;
+}

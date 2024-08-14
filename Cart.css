@@ -1,0 +1,857 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+.Navbar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.Logo h4{
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 100%;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: end;
+}
+.nav-item{
+    padding: 0px 15px;
+}
+.nav .nav-link{
+    font-size: 16px;
+    font-family: Montserrat-Regular;
+    color: black !important;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.nav .nav-link.active{
+    color: #e65540 !important;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav .nav-link:hover{
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Iconlinks{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    gap: 20px;
+}
+.Headbg img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.Headbg{
+    position: relative;
+}
+.Headbgdetail{
+    position: absolute;
+    content: "";
+    top: 40%;
+    left: 40%;
+}
+.Headbgdetail h1{
+    color: black;
+    font-size: 80px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+#CartSection{
+    background-color:whitesmoke;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.cart-head{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.heading{
+    font-size: 40px;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+}
+.productimg img{
+    object-fit: contain;
+}
+.producttitle{
+    font-size: 15px;
+    font-family: Montserrat-Medium;
+}
+.productprice{
+    font-size: 16px;
+    font-family: Montserrat-Medium;
+    
+}
+#removeall{
+    background-color: white;
+    border: none;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+#removeall:hover{
+    cursor: pointer;
+    color: turquoise;
+}
+#Main-body{
+    display: flex;
+    justify-content: center;
+}
+.cart-body{
+    width: 100%;
+}
+.cart{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    overflow-x: auto;
+}
+.cart::-webkit-scrollbar{
+    display: none;
+}
+#cart-table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+#cart-table th {
+    font-size: 17px;
+}
+
+#cart-table td {
+    padding-top: 20px;
+}
+
+.removebtn {
+    background-color: white;
+    border: none;
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Montserrat-Medium;
+}
+
+.removebtn:hover {
+    cursor: pointer;
+    color: turquoise;
+}
+
+.quantity {
+    font-size: 18px;
+    font-family: Montserrat-Medium;
+}
+
+.decrementbtn {
+    background-color: white;
+    padding: 1px 8px;
+    font-size: 18px;
+    margin-right: 5px;
+    border-color: white;
+    border-radius: 50%;
+    color: black;
+}
+
+.decrementbtn:hover {
+    background-color: red;
+    border-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+.incrementbtn {
+    background-color: white;
+    padding: 1px 8px;
+    font-size: 18px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border-color: white;
+    color: black;
+}
+
+.incrementbtn:hover {
+    background-color: limegreen;
+    border-color: limegreen;
+    cursor: pointer;
+    color: black;
+}
+
+.Total-portion {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    padding: 40px 70px;
+}
+
+#totalpricehead{
+    font-size: 28px;
+    font-family: Montserrat-Medium;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#total {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+    margin-top: 10px;
+}
+#Checkoutbtn{
+    background-color: black;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Montserrat-Medium;
+    padding: 8px 35px;
+    border-radius: 20px;
+}
+#Checkoutbtn:hover{
+    background-color: aqua;
+    color: black;
+}
+.LogOutbtn{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+.LogOutbtn:hover{
+    background-color: aqua;
+    color: black;
+    border-color: aqua;
+}
+
+
+#FooterSection{
+    background-color: #f2f2f2;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#FooterSection .Getintouchdetail,#FooterSection .SocialLinks{
+    padding-left: 50px;
+}
+#FooterSection .SocialLinks a{
+    padding-right: 10px;
+}
+#FooterSection .SocialLinks a img:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+}
+#FooterSection .Getintouchdetail h5{
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+    padding-bottom: 20px;
+}
+#FooterSection .Getintouchdetail p{
+    color: #555555;
+    font-size: 15px;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Categories h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Categorieslinks{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Categorieslinks a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Categorieslinks a:hover{
+    color: #e65540;
+}
+#FooterSection .Linkspart h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Links{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Links a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Links a:hover{
+    color: #e65540;
+}
+#FooterSection .Help h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Helplinks{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Helplinks a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Helplinks a:hover{
+    color: #e65540;
+}
+
+#FooterSection .Newsletter h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Newsletterdetail input{
+    background-color: #f2f2f2;
+    border-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-family: Montserrat-Medium;
+    width: 100%;
+}
+#FooterSection .Newsletterdetail a{
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Montserrat-Medium;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#FooterSection .Newsletterdetail a:hover{
+    background-color: #e65540;
+}
+
+@media screen and (max-width:345px){
+    .Logo h4{
+        font-size: 16px;
+    }
+    .heading{
+        font-size: 18px;
+    }
+    #removeall{
+        font-size: 10px;
+    }
+    .Total-portion {
+        flex-direction: row !important;
+        gap: 20px;
+        padding: 30px 70px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 28%;
+    }
+    .Headbgdetail h1{
+        font-size: 50px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #cart-table th {
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:376px){
+    .Logo h4{
+        font-size: 16px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    #removeall{
+        font-size: 12px;
+    }
+    .Total-portion {
+        flex-direction: row !important;
+        justify-content: flex-end;
+        padding: 30px 10px;
+    }
+    #totalpricehead{
+        font-size: 14px;
+        margin-top: 13px;
+    }
+    #Checkoutbtn{
+        padding: 8px 20px;
+    }
+    #cart-table th {
+        font-size: 12px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 28%;
+    }
+    .Headbgdetail h1{
+        font-size: 55px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 60px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:390px) and (max-width:431px){
+    .Logo h4{
+        font-size: 20px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    #removeall{
+        font-size: 12px;
+    }
+    .Total-portion {
+        flex-direction: row !important;
+        justify-content: flex-end;
+        padding: 30px 40px;
+    }
+    #totalpricehead{
+        font-size: 15px;
+    }
+    #Checkoutbtn{
+        padding: 8px 20px;
+    }
+    #cart-table th {
+        font-size: 12px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 30%;
+    }
+    .Headbgdetail h1{
+        font-size: 50px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #cart-table th, #cart-table td {
+        font-size: 12px;
+    }
+
+    .quantity {
+        font-size: 14px;
+    }
+
+    .decrementbtn, .incrementbtn {
+        font-size: 14px;
+        padding: 0;
+        margin: 0 2px;
+    }
+
+    .Total-portion {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    #totalpricehead {
+        font-size: 20px;
+    }
+
+    #total {
+        font-size: 16px;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:432px) and (max-width:541px){
+    .Logo h4{
+        font-size: 20px;
+    }
+    .heading{
+        font-size: 25px;
+    }
+    #removeall{
+        font-size: 15px;
+    }
+    .Total-portion {
+        flex-direction: row !important;
+        justify-content: flex-end;
+        padding: 30px 40px;
+    }
+    #totalpricehead{
+        font-size: 15px;
+    }
+    #Checkoutbtn{
+        padding: 8px 20px;
+    }
+    #cart-table th {
+        font-size: 14px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 33%;
+    }
+    .Headbgdetail h1{
+        font-size: 55px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #cart-table th, #cart-table td {
+        font-size: 12px;
+    }
+
+    .quantity {
+        font-size: 14px;
+    }
+
+    .decrementbtn, .incrementbtn {
+        font-size: 14px;
+        padding: 0;
+        margin: 0 2px;
+    }
+
+    .Total-portion {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    #totalpricehead {
+        font-size: 20px;
+    }
+
+    #total {
+        font-size: 16px;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:821px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 36%;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    #removeall{
+        font-size: 15px;
+    }
+    .Total-portion {
+        flex-direction: row !important;
+        gap: 20px;
+        padding: 30px 70px;
+    }
+    #cart-table th {
+        font-size: 15px;
+    }
+    .Headbgdetail h1{
+        font-size: 75px;
+    }
+    .Headbgdetail p{
+        font-size: 20px;
+    }
+    #cart-table th, #cart-table td {
+        font-size: 14px;
+    }
+
+    .quantity {
+        font-size: 16px;
+    }
+
+    .decrementbtn, .incrementbtn {
+        font-size: 16px;
+    }
+
+    .Total-portion {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 20px;
+        padding: 20px 30px;
+    }
+
+    #totalpricehead {
+        font-size: 24px;
+    }
+
+    #total {
+        font-size: 18px;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+        font-size: 27px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 270px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:821px) and (max-width:913px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 30%;
+    }
+    #cart-table th {
+        font-size: 15px;
+    }
+    .Headbgdetail h1{
+        font-size: 65px;
+    }
+    .Headbgdetail p{
+        font-size: 20px;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+        font-size: 27px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 320px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:914px) and (max-width:1025px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 38%;
+    }
+    .Headbgdetail h1{
+        font-size: 75px;
+    }
+    .Headbgdetail p{
+        font-size: 25px;
+    }
+    
+}

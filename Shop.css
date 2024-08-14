@@ -1,0 +1,971 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+.Navbar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.Logo h4{
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 100%;
+    padding: 5px 30px;
+    display: grid;
+    justify-content: end;
+}
+.nav-item{
+    padding: 0px 15px;
+}
+.nav .nav-link{
+    font-size: 16px;
+    font-family: Montserrat-Regular;
+    color: black !important;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.nav .nav-link.active{
+    color: #e65540 !important;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav .nav-link:hover{
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Iconlinks{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    gap: 20px;
+}
+.Headbg img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+.Headbg{
+    position: relative;
+}
+.Headbgdetail{
+    position: absolute;
+    content: "";
+    top: 40%;
+    left: 37%;
+}
+.Headbgdetail h1{
+    color: white;
+    font-size: 70px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+.Headbgdetail p{
+    color: white;
+    font-size: 25px;
+    font-family: Montserrat-Regular;
+    display: flex;
+    justify-content: center;
+}
+#AllProductSection{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#AllProductSection .Category h5{
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+#AllProductSection .Category .Categorylinks{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#AllProductSection .Category .Categorylinks a{
+    color: black;
+    font-family: Montserrat-Regular;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+#AllProductSection .Category .Categorylinks a:hover{
+    color: #e65540;
+}
+#AllProductSection .Filter .Filterhead{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+
+}
+#AllProductSection .Filter .Filterhead h5{
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+#AllProductSection .Filter .Pricehead h6{
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.slidecontainer {
+    width: 100%;
+}
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.8; 
+    border-radius: 40px;
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+  }
+.slider:hover {
+    opacity: 1;
+  }
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    border-radius: 50%;
+    background: black; 
+    cursor: pointer; 
+  }
+  
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px; 
+    background: black;
+    cursor: pointer; 
+  }
+#AllProductSection .Filter .Filterdetail{
+    display: flex;
+    gap: 50px;
+}
+#AllProductSection .Filter .Filterdetail .Filterbtn,#AllProductSection .Filter .Filterdetail .FilterRange{
+    padding-top: 10px;
+}
+#AllProductSection .Filter .Filterdetail .Filterbtn button{
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-family: Montserrat-Regular;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 8px 30px;
+}
+#AllProductSection .Filter .Filterdetail .Filterbtn button:hover{
+    background-color: #e65540;
+    border-color: #e65540;
+}
+#AllProductSection .Filter .Filterdetail .FilterRange p{
+    color: #555555;
+    font-family: Montserrat-Regular;
+    font-size: 17px;
+}
+#AllProductSection .Color h6{
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    font-size: 20px;
+}
+#AllProductSection .Color .colors{
+    display: flex;
+    gap: 15px;
+}
+#AllProductSection .Color .color1{
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #00bbec;
+}
+#AllProductSection .Color .color1:hover{
+    transform: scale(0.9);    
+}
+#AllProductSection .Color .color2{
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #2c6ed5;
+}
+#AllProductSection .Color .color2:hover{
+    transform: scale(0.9);    
+}
+#AllProductSection .Color .color3{
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #ffa037;
+}
+#AllProductSection .Color .color3:hover{
+    transform: scale(0.9);    
+}
+#AllProductSection .Color .color4{
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #ff5337;
+}
+#AllProductSection .Color .color4:hover{
+    transform: scale(0.9);    
+}
+#AllProductSection .Color .color5{
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #a88c77;
+}
+#AllProductSection .Color .color5:hover{
+    transform: scale(0.9);    
+}
+#AllProductSection .Color .color6{
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #393939;
+}
+#AllProductSection .Color .color6:hover{
+    transform: scale(0.9);    
+}
+#AllProductSection .Color .color7{
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+#AllProductSection .Color .color7:hover{
+    transform: scale(0.9);    
+}
+.position{
+    display: flex;
+    justify-content: end;
+}
+#AllProductSection .Search{
+    width: 100%;
+}
+#AllProductSection .Search input{
+    padding: 6px 40px;
+    border-radius: 20px;
+    border-color:#e6e6e6;
+    font-family: Montserrat-Regular;
+}
+#AllProductSection .dropdown .btn{
+    width: 100%;
+    letter-spacing: 2px;
+    font-family: Montserrat-Regular;
+    border-color: black;
+}
+#AllProductSection .dropdown .dropdown-menu{
+    width: 100%;
+}
+.priceRange{
+    background-color: white;
+    border-color: white;
+    width: 100%;
+    font-family: Montserrat-Regular;
+    letter-spacing: 2px;
+    padding: 5px 3px;
+}
+#AllProductSection .productcount{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-top: 7px;
+    font-family: Montserrat-Regular;
+}
+#AllProductSection .productcount span{
+    font-weight: bold;
+    font-size: 20px;
+}
+#AllProductSection .Loadmorebtn button{
+    background-color:black;
+    border-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    padding: 12px 35px;
+    cursor: pointer;
+}
+#AllProductSection .Loadmorebtn button:hover{
+    background-color: #e65540;
+    border-color: #e65540;
+}
+#AllProductSection .card{
+    position: relative;
+    border: none;
+}
+#AllProductSection #AllProducts{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+}
+#AllProductSection .ProductCard .card img{
+    width: 330px;
+    height: 400px;
+    object-fit: cover;
+}
+#AllProductSection .ProductCard .card .card-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+#AllProductSection .ProductCard .card .card-title,#AllProductSection .card .card-text{
+    text-align: center;
+}
+#AllProductSection .ProductCard .card .Addtocartbtn{
+    display: flex;
+    justify-content: center;
+}
+#AllProductSection .ProductCard .card .Addtocartbtn .btn{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    padding: 7px 40px;
+}
+#AllProductSection .ProductCard .card .Addtocartbtn .btn:hover{
+    background-color: tomato;
+    color: white;
+}
+#AllProductSection .ProductCard .card .Addtocartbtn{
+    position: absolute;
+    content: "";
+    left: 20%;
+    bottom: 45px;
+    opacity: 0;
+}
+.transition{
+    transition-duration: 0.5s;
+}
+#AllProductSection .ProductCard .card:hover .Addtocartbtn{
+    opacity: 1;
+    transform: translateY(-70px);
+}
+.LogOutbtn{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+.LogOutbtn:hover{
+    background-color: aqua;
+    color: black;
+    border-color: aqua;
+}
+
+#FooterSection{
+    background-color: #f2f2f2;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#FooterSection .Getintouchdetail,#FooterSection .SocialLinks{
+    padding-left: 50px;
+}
+#FooterSection .SocialLinks a{
+    padding-right: 10px;
+}
+#FooterSection .SocialLinks a img:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+}
+#FooterSection .Getintouchdetail h5{
+    font-weight: bold;
+    font-family: Montserrat-Medium;
+    padding-bottom: 20px;
+}
+#FooterSection .Getintouchdetail p{
+    color: #555555;
+    font-size: 15px;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Categories h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Categorieslinks{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Categorieslinks a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Categorieslinks a:hover{
+    color: #e65540;
+}
+#FooterSection .Linkspart h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Links{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Links a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Links a:hover{
+    color: #e65540;
+}
+#FooterSection .Help h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-family: Montserrat-Medium;
+    display: grid;
+    justify-content: center;
+}
+#FooterSection .Helplinks{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+#FooterSection .Helplinks a{
+    color: #555555;
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Helplinks a:hover{
+    color: #e65540;
+}
+
+#FooterSection .Newsletter h5{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Montserrat-Medium;
+}
+#FooterSection .Newsletterdetail input{
+    background-color: #f2f2f2;
+    border-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-family: Montserrat-Medium;
+    width: 100%;
+}
+#FooterSection .Newsletterdetail a{
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Montserrat-Medium;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#FooterSection .Newsletterdetail a:hover{
+    background-color: #e65540;
+}
+
+@media screen and (max-width:345px){
+    .Logo h4{
+        font-size: 16px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 10%;
+    }
+    .Headbgdetail h1{
+        font-size: 45px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #AllProductSection #AllProducts{
+        display: grid;
+        grid-template-columns: repeat(1,330px);
+        justify-content: center;
+    }
+    #AllProductSection .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 15%;
+        bottom: 45px;
+        opacity: 0;
+    }
+    #AllProductSection .card:hover .Addtocartbtn{
+        opacity: 1;
+        transform: translateY(-70px);
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 5px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 30px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width:376px){
+    .Logo h4{
+        font-size: 16px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 10%;
+    }
+    .Headbgdetail h1{
+        font-size: 45px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #AllProductSection #AllProducts{
+        display: grid;
+        grid-template-columns: repeat(1,340px);
+        justify-content: center;
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 60px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:390px) and (max-width:431px){
+    .Logo h4{
+        font-size: 20px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 15%;
+    }
+    .Headbgdetail h1{
+        font-size: 50px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #AllProductSection #AllProducts{
+        display: grid;
+        grid-template-columns: repeat(1,350px);
+        justify-content: center;
+    }
+    #AllProductSection .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 24%;
+        bottom: 45px;
+        opacity: 0;
+    }
+    #AllProductSection .card:hover .Addtocartbtn{
+        opacity: 1;
+        transform: translateY(-70px);
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:432px) and (max-width:541px){
+    .Logo h4{
+        font-size: 20px;
+    }
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 23%;
+    }
+    .Headbgdetail h1{
+        font-size: 55px;
+    }
+    .Headbgdetail p{
+        font-size: 18px;
+    }
+    #AllProductSection #AllProducts{
+        display: grid;
+        grid-template-columns: repeat(1,350px);
+        justify-content: center;
+    }
+    #AllProductSection .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 30%;
+        bottom: 45px;
+        opacity: 0;
+    }
+    #AllProductSection .card:hover .Addtocartbtn{
+        opacity: 1;
+        transform: translateY(-90px);
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 80px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:821px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 30%;
+    }
+    .Headbgdetail h1{
+        font-size: 65px;
+    }
+    .Headbgdetail p{
+        font-size: 20px;
+    }
+    #AllProductSection #AllProducts{
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        justify-content: center;
+    }
+    #AllProductSection .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 36%;
+        bottom: 45px;
+        opacity: 0;
+    }
+    #AllProductSection .card:hover .Addtocartbtn{
+        opacity: 1;
+        transform: translateY(-90px);
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+        font-size: 27px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 270px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:821px) and (max-width:913px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 30%;
+    }
+    .Headbgdetail h1{
+        font-size: 65px;
+    }
+    .Headbgdetail p{
+        font-size: 20px;
+    }
+    #AllProductSection #AllProducts{
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        justify-content: center;
+    }
+    #AllProductSection .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 36%;
+        bottom: 45px;
+        opacity: 0;
+    }
+    #AllProductSection .card:hover .Addtocartbtn{
+        opacity: 1;
+        transform: translateY(-120px);
+    }
+    #FooterSection .Getintouchdetail h5{
+        margin-right: 40px;
+        font-size: 27px;
+    }
+    #FooterSection .Getintouchdetail{
+        display: grid;
+        justify-items: center;
+    }
+    #FooterSection .Getintouchdetail p{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #FooterSection .SocialLinks{
+        margin-left: 320px;
+    }
+    #FooterSection .Categories{
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    #FooterSection .Linkspart{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Help{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter{
+        display: grid;
+        justify-items: center;
+        padding-top: 30px;
+    }
+    #FooterSection .Newsletter input{
+        width: 80%;
+        margin-left: 70px;
+    }
+    #FooterSection .Newsletter a{
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width:914px) and (max-width:1425px){
+    .Headbgdetail{
+        position: absolute;
+        content: "";
+        top: 40%;
+        left: 30%;
+    }
+    .Headbgdetail h1{
+        font-size: 75px;
+    }
+    .Headbgdetail p{
+        font-size: 25px;
+    }
+    #AllProductSection #AllProducts{
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        justify-content: center;
+    }
+    #AllProductSection .card .Addtocartbtn .btn{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        letter-spacing: 2px;
+        padding: 7px 25px;
+    }
+    #AllProductSection .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 13%;
+        bottom: 45px;
+        opacity: 0;
+    }
+    #AllProductSection .card:hover .Addtocartbtn{
+        opacity: 1;
+        transform: translateY(-70px);
+    }
+}
