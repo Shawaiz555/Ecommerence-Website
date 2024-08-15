@@ -344,6 +344,11 @@ body{
 .swiper-slide .card .Addtocartbtn{
     display: flex;
     justify-content: center;
+    position: absolute;
+    content: "";
+    left: 20%;
+    bottom: 45px;
+    opacity: 0;
 }
 .swiper-slide .card .Addtocartbtn .btn{
     background-color: black;
@@ -355,13 +360,6 @@ body{
 .swiper-slide .card .Addtocartbtn .btn:hover{
     background-color: tomato;
     color: white;
-}
-.swiper-slide .card .Addtocartbtn{
-    position: absolute;
-    content: "";
-    left: 20%;
-    bottom: 45px;
-    opacity: 0;
 }
 .transition{
     transition-duration: 0.5s;
@@ -729,6 +727,16 @@ body{
         width: 300px;
         height: 330px;
     }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 30%;
+        bottom: 30%;
+        opacity: 1;
+    }
+    .swiper-slide .card:hover .Addtocartbtn{
+        transform: translateY(0px);
+    }
     .Signupdetail{
         width: 95%;
         height: 95%;
@@ -798,6 +806,16 @@ body{
     }
     .carousel-caption button{
         padding: 15px 55px;
+    }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 22%;
+        bottom: 30%;
+        opacity: 1;
+    }
+    .swiper-slide .card:hover .Addtocartbtn{
+        transform: translateY(0px);
     }
     .banner1img img,.banner4img img,.banner2img img,.banner3img img,.banner5img img{
         width: 840px;
@@ -950,6 +968,16 @@ body{
         width: 800px;
         height: 780px;
     }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 22%;
+        bottom: 32%;
+        opacity: 1;
+    }
+    .swiper-slide .card:hover .Addtocartbtn{
+        transform: translateY(0px);
+    }
     .Signupdetail{
         width: 100%;
     }
@@ -973,6 +1001,13 @@ body{
         content: "";
         top: 70%;
         left: 35%;
+    }
+    #AllProductSection .ProductCard .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 21%;
+        bottom: 30%;
+        opacity: 1;
     }
     .Banner1btn{
         position: absolute;
@@ -1075,6 +1110,16 @@ body{
         font-size: 20px;
         margin-top: 32px;
     }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 30%;
+        bottom: 30%;
+        opacity: 1;
+    }
+    .swiper-slide .card:hover .Addtocartbtn{
+        transform: translateY(0px);
+    }
     .LogOutbtn{
         font-size: 10px;
         border-radius: 15px;
@@ -1134,13 +1179,6 @@ body{
         top: 51%;
         left: 36%;
     }
-    .swiper-slide .card .Addtocartbtn{
-        position: absolute;
-        content: "";
-        left: 33%;
-        bottom: 45px;
-        opacity: 0;
-    }
     #BlogSection .card{
         width: 100%;
     }
@@ -1193,6 +1231,16 @@ body{
     .Logo h4{
         font-size: 20px;
         margin-top: 32px;
+    }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 28%;
+        bottom: 30%;
+        opacity: 1;
+    }
+    .swiper-slide .card:hover .Addtocartbtn{
+        transform: translateY(0px);
     }
     .LogOutbtn{
         font-size: 10px;
@@ -1253,13 +1301,6 @@ body{
         top: 51%;
         left: 29%;
     }
-    .swiper-slide .card .Addtocartbtn{
-        position: absolute;
-        content: "";
-        left: 27%;
-        bottom: 45px;
-        opacity: 0;
-    }
     #BlogSection .card{
         width: 100%;
     }
@@ -1318,6 +1359,16 @@ body{
         border-radius: 15px;
         padding: 5px 25px;
     }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 25%;
+        bottom: 30%;
+        opacity: 1;
+    }
+    .swiper-slide .card:hover .Addtocartbtn{
+        transform: translateY(0px);
+    }
     .carousel-caption p{
         font-size: 14px;
     }
@@ -1373,13 +1424,6 @@ body{
         top: 51%;
         left: 29%;
     }
-    .swiper-slide .card .Addtocartbtn{
-        position: absolute;
-        content: "";
-        left: 25%;
-        bottom: 45px;
-        opacity: 0;
-    }
     #BlogSection .card{
         width: 100%;
     }
@@ -1429,6 +1473,16 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr 2fr;
     }
+    .swiper-slide .card .Addtocartbtn{
+        position: absolute;
+        content: "";
+        left: 23%;
+        bottom: 30%;
+        opacity: 1;
+    }
+    .swiper-slide .card:hover .Addtocartbtn{
+        transform: translateY(0px);
+    }
     .Logo h4{
         font-size: 16px;
         margin-top: 32px;
@@ -1476,13 +1530,6 @@ body{
     }
     .Signupdetail{
         width: 100%;
-    }
-    .swiper-slide .card .Addtocartbtn{
-        position: absolute;
-        content: "";
-        left: 25%;
-        bottom: 45px;
-        opacity: 0;
     }
     #BlogSection .card{
         width: 100%;

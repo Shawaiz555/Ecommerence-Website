@@ -638,9 +638,10 @@ body{
         font-size: 15px;
     }
     .Total-portion {
-        flex-direction: row !important;
-        justify-content: flex-end;
-        padding: 30px 40px;
+        display: grid;
+        grid-template-columns: 140px 70px 100px;
+        justify-content: center;
+        padding: 40px 70px;
     }
     #totalpricehead{
         font-size: 15px;
