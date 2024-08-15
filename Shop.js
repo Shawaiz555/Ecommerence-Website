@@ -130,8 +130,14 @@ function addToCart(id, title, image, price) {
       else 
       {
         let LoggedUserCart = JSON.parse(localStorage.getItem(`User_${Current_User_Id}_Cart`)) || [];
-
-         UserCart = {
+        let ExistingProduct = LoggedUserCart.find(item => item.Id === id);
+        if(ExistingProduct)
+        {
+            ExistingProduct.Quantity += 1;
+        }
+        else
+        {
+            UserCart = {
                 Id : id,
                 Title : title,
                 Image : image,
@@ -139,9 +145,9 @@ function addToCart(id, title, image, price) {
                 Quantity: 1
          }
          LoggedUserCart.push(UserCart);
-
-         localStorage.setItem(`User_${Current_User_Id}_Cart`, JSON.stringify(LoggedUserCart));
-         alert('Product added to the Cart successfully');
+        }
+        localStorage.setItem(`User_${Current_User_Id}_Cart`, JSON.stringify(LoggedUserCart));
+        alert('Product added to the Cart successfully');
       }
          
      }
