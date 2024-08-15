@@ -201,9 +201,9 @@ body{
 }
 
 .Total-portion {
-    display: flex;
+    display: grid;
+    grid-template-columns: 200px 100px 300px;
     justify-content: end;
-    gap: 40px;
     padding: 40px 70px;
 }
 
@@ -366,6 +366,10 @@ body{
 }
 
 @media screen and (max-width:345px){
+    .Navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
     .Logo h4{
         font-size: 16px;
     }
@@ -375,10 +379,8 @@ body{
     #removeall{
         font-size: 10px;
     }
-    .Total-portion {
-        flex-direction: row !important;
-        gap: 20px;
-        padding: 30px 70px;
+    #totalpricehead{
+        font-size: 20px;
     }
     .Headbgdetail{
         position: absolute;
@@ -404,6 +406,10 @@ body{
     
 }
 @media screen and (max-width:376px){
+    .Navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
     .Logo h4{
         font-size: 16px;
     }
@@ -419,16 +425,19 @@ body{
         padding: 5px 25px;
     }
     .Total-portion {
-        flex-direction: row !important;
-        justify-content: flex-end;
-        padding: 30px 10px;
+        display: grid;
+        grid-template-columns: 120px 70px 70px;
+        justify-content: end;
+        padding: 30px 40px;
+    }
+    #total {
+        font-size: 15px;
     }
     #totalpricehead{
-        font-size: 14px;
-        margin-top: 13px;
+        font-size: 20px;
     }
     #Checkoutbtn{
-        padding: 4px 20px;
+        padding: 5px 20px;
     }
     #cart-table th {
         font-size: 12px;
@@ -490,6 +499,10 @@ body{
     }
 }
 @media screen and (min-width:390px) and (max-width:431px){
+    .Navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
     .Logo h4{
         font-size: 20px;
     }
@@ -505,12 +518,16 @@ body{
         padding: 5px 25px;
     }
     .Total-portion {
-        flex-direction: row !important;
-        justify-content: flex-end;
-        padding: 30px 40px;
+        display: grid;
+        grid-template-columns: 140px 70px 100px;
+        justify-content: end;
+        padding: 40px 70px;
+    }
+    #total {
+        font-size: 18px;
     }
     #totalpricehead{
-        font-size: 15px;
+        font-size: 25px;
     }
     #Checkoutbtn{
         padding: 4px 20px;
@@ -603,6 +620,10 @@ body{
     }
 }
 @media screen and (min-width:432px) and (max-width:541px){
+    .Navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
     .Logo h4{
         font-size: 20px;
     }
@@ -732,9 +753,10 @@ body{
         font-size: 15px;
     }
     .Total-portion {
-        flex-direction: row !important;
-        gap: 20px;
-        padding: 30px 70px;
+        display: grid;
+        grid-template-columns: 180px 120px 300px;
+        justify-content: end;
+        padding: 20px 30px;
     }
     #cart-table th {
         font-size: 15px;

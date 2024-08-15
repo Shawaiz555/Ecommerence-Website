@@ -278,6 +278,10 @@ body{
 }
 
 @media screen and (max-width:345px){
+    .Navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
     .Logo h4{
         font-size: 16px;
     }
@@ -305,6 +309,10 @@ body{
     
 }
 @media screen and (max-width:376px){
+    .Navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
     .Logo h4{
         font-size: 16px;
     }
@@ -371,6 +379,10 @@ body{
     }
 }
 @media screen and (min-width:390px) and (max-width:431px){
+    .Navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
     .Logo h4{
         font-size: 20px;
     }
@@ -437,6 +449,10 @@ body{
     }
 }
 @media screen and (min-width:432px) and (max-width:541px){
+    .Navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
     .Logo h4{
         font-size: 20px;
     }
