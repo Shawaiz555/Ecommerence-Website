@@ -115,8 +115,7 @@ function addToCart(id, title, image, price) {
      
      if(!LoggedInUser)
      {
-        console.error('No user logged in');
-        return ;
+        alert('You Need to Login First To Buy Something!!!');
      }
 
      else

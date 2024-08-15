@@ -147,8 +147,7 @@ Removeallbtn.addEventListener('click', () => {
 function checkout() {
     const LoggedInUser = localStorage.getItem('LoggedInUser');
     if (!LoggedInUser) {
-        console.error('No user is logged in');
-        return;
+        alert('You Need to Login First To Buy Something!!!');
     }
 
     let Current_User_Id = localStorage.getItem('Current_User_Id');
