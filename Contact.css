@@ -297,6 +297,11 @@ body{
         width: 100%;
         height: 50vh;
     }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
+    }
     
 }
 @media screen and (max-width:376px){
@@ -318,6 +323,11 @@ body{
     .ContactDetails img{
         width: 100%;
         height: 50vh;
+    }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
     }
     #FooterSection .Getintouchdetail h5{
         margin-right: 40px;
@@ -380,6 +390,11 @@ body{
         width: 100%;
         height: 50vh;
     }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
+    }
     #FooterSection .Getintouchdetail h5{
         margin-right: 40px;
     }
@@ -440,6 +455,11 @@ body{
     .ContactDetails img{
         width: 100%;
         height: 70vh;
+    }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
     }
     #FooterSection .Getintouchdetail h5{
         margin-right: 40px;

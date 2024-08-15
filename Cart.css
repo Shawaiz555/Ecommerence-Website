@@ -395,6 +395,12 @@ body{
     #cart-table th {
         font-size: 10px;
     }
+    #cart-table {
+        width: 160%;
+    }
+    #Checkoutbtn{
+        padding: 4px 20px;
+    }
     
 }
 @media screen and (max-width:376px){
@@ -407,6 +413,11 @@ body{
     #removeall{
         font-size: 12px;
     }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
+    }
     .Total-portion {
         flex-direction: row !important;
         justify-content: flex-end;
@@ -417,10 +428,13 @@ body{
         margin-top: 13px;
     }
     #Checkoutbtn{
-        padding: 8px 20px;
+        padding: 4px 20px;
     }
     #cart-table th {
         font-size: 12px;
+    }
+    #cart-table {
+        width: 160%;
     }
     .Headbgdetail{
         position: absolute;
@@ -485,6 +499,11 @@ body{
     #removeall{
         font-size: 12px;
     }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
+    }
     .Total-portion {
         flex-direction: row !important;
         justify-content: flex-end;
@@ -494,10 +513,13 @@ body{
         font-size: 15px;
     }
     #Checkoutbtn{
-        padding: 8px 20px;
+        padding: 4px 20px;
     }
     #cart-table th {
         font-size: 12px;
+    }
+    #cart-table {
+        width: 160%;
     }
     .Headbgdetail{
         position: absolute;
@@ -603,6 +625,17 @@ body{
     }
     #cart-table th {
         font-size: 14px;
+    }
+    #cart-table {
+        width: 140%;
+    }
+    #Checkoutbtn{
+        padding: 4px 20px;
+    }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
     }
     .Headbgdetail{
         position: absolute;

@@ -414,6 +414,11 @@ body{
     .Headbgdetail p{
         font-size: 18px;
     }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
+    }
     
 }
 @media screen and (max-width:376px){
@@ -431,6 +436,11 @@ body{
     }
     .Headbgdetail p{
         font-size: 18px;
+    }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
     }
     #FooterSection .Getintouchdetail h5{
         margin-right: 40px;
@@ -489,6 +499,11 @@ body{
     .Headbgdetail p{
         font-size: 18px;
     }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
+    }
     #FooterSection .Getintouchdetail h5{
         margin-right: 40px;
     }
@@ -545,6 +560,11 @@ body{
     }
     .Headbgdetail p{
         font-size: 18px;
+    }
+    .LogOutbtn{
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 5px 25px;
     }
     #FooterSection .Getintouchdetail h5{
         margin-right: 40px;
