@@ -43,7 +43,7 @@ Loginbtn.onclick = function()
         localStorage.setItem('Current_User_Id', UserID);
         localStorage.setItem('LoggedInUser',UserConfirm.Name);
         alert(`Login Successful, Welcome to MS Store ${UserConfirm.Name}`);
-        window.location.href = 'Home.html';
+        window.location.href = 'index.html';
     }
     else
     {
